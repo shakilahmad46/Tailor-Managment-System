@@ -1,0 +1,5 @@
+name: Shakil
+descritpion: Shakil FirstModule
+core_version_requirement: ^9
+type: moduel
+package: custom
