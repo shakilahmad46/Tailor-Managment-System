@@ -1,0 +1,5 @@
+raseed:
+  version: '1.0.x'
+  css:
+    base:
+      css/welcome.css: {}
