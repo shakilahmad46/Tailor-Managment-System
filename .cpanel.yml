@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/techsang/public_html/imperial
+ - export DEPLOYPATH=/home/techsang/public_html/imperial/
  - /bin/cp * $DEPLOYPATH
