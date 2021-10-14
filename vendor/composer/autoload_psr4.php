@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'libphonenumber\\' => array($vendorDir . '/giggsey/libphonenumber-for-php/src'),
     'Webmozart\\PathUtil\\' => array($vendorDir . '/webmozart/path-util/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
@@ -67,7 +66,6 @@ return array(
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Grasmash\\YamlExpander\\' => array($vendorDir . '/grasmash/yaml-expander/src'),
     'Grasmash\\Expander\\' => array($vendorDir . '/grasmash/expander/src'),
-    'Giggsey\\Locale\\' => array($vendorDir . '/giggsey/locale/src'),
     'Enlightn\\SecurityChecker\\' => array($vendorDir . '/enlightn/security-checker/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Drush\\Internal\\' => array($vendorDir . '/drush/drush/src/internal-forks'),

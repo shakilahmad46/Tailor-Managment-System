@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f81d8dda94260b4108fa72ecccdc65d382b978a3',
+        'reference' => 'b035cc969088f44a780fe9afa1f3d8ff5c1dd678',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -940,15 +940,6 @@
             'reference' => '8.x-1.1',
             'dev_requirement' => false,
         ),
-        'drupal/phone_international' => array(
-            'pretty_version' => '3.1.0',
-            'version' => '3.1.0.0',
-            'type' => 'drupal-module',
-            'install_path' => __DIR__ . '/../../web/modules/contrib/phone_international',
-            'aliases' => array(),
-            'reference' => '3.1.0',
-            'dev_requirement' => false,
-        ),
         'drupal/prepopulate' => array(
             'pretty_version' => '2.3.0',
             'version' => '2.3.0.0',
@@ -985,7 +976,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f81d8dda94260b4108fa72ecccdc65d382b978a3',
+            'reference' => 'b035cc969088f44a780fe9afa1f3d8ff5c1dd678',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1204,24 +1195,6 @@
             'reference' => 'dc5bce653fa4d9c792e9dcffa728c0642847c1e1',
             'dev_requirement' => false,
         ),
-        'giggsey/libphonenumber-for-php' => array(
-            'pretty_version' => '8.12.35',
-            'version' => '8.12.35.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../giggsey/libphonenumber-for-php',
-            'aliases' => array(),
-            'reference' => '7853af278d8866328b3df98ae998dbf5d4a5c907',
-            'dev_requirement' => false,
-        ),
-        'giggsey/locale' => array(
-            'pretty_version' => '2.0',
-            'version' => '2.0.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../giggsey/locale',
-            'aliases' => array(),
-            'reference' => 'f28e0fa55e842afe034a7671df79757731467031',
-            'dev_requirement' => false,
-        ),
         'grasmash/expander' => array(
             'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
@@ -1402,8 +1375,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/event-dispatcher-implementation' => array(

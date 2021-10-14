@@ -46,10 +46,6 @@ class ComposerStaticInit2e3e0a05b4ceb8d93fc508a3e2cafeea
     );
 
     public static $prefixLengthsPsr4 = array (
-        'l' => 
-        array (
-            'libphonenumber\\' => 15,
-        ),
         'W' => 
         array (
             'Webmozart\\PathUtil\\' => 19,
@@ -133,7 +129,6 @@ class ComposerStaticInit2e3e0a05b4ceb8d93fc508a3e2cafeea
             'GuzzleHttp\\' => 11,
             'Grasmash\\YamlExpander\\' => 22,
             'Grasmash\\Expander\\' => 18,
-            'Giggsey\\Locale\\' => 15,
         ),
         'E' => 
         array (
@@ -183,10 +178,6 @@ class ComposerStaticInit2e3e0a05b4ceb8d93fc508a3e2cafeea
     );
 
     public static $prefixDirsPsr4 = array (
-        'libphonenumber\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
-        ),
         'Webmozart\\PathUtil\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/path-util/src',
@@ -427,10 +418,6 @@ class ComposerStaticInit2e3e0a05b4ceb8d93fc508a3e2cafeea
         'Grasmash\\Expander\\' => 
         array (
             0 => __DIR__ . '/..' . '/grasmash/expander/src',
-        ),
-        'Giggsey\\Locale\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/giggsey/locale/src',
         ),
         'Enlightn\\SecurityChecker\\' => 
         array (
