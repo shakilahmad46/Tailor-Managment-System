@@ -2318,6 +2318,66 @@
             "install-path": "../../web/modules/contrib/admin_toolbar"
         },
         {
+            "name": "drupal/admin_toolbar_tools",
+            "version": "3.0.3",
+            "version_normalized": "3.0.3.0",
+            "require": {
+                "drupal/admin_toolbar": "*",
+                "drupal/core": "^8.8.0 || ^9.0"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.3",
+                    "datestamp": "1632322497",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Musa.thomas",
+                    "homepage": "https://www.drupal.org/user/1213824"
+                },
+                {
+                    "name": "adriancid",
+                    "homepage": "https://www.drupal.org/user/1962106"
+                },
+                {
+                    "name": "bolbol",
+                    "homepage": "https://www.drupal.org/user/3400070"
+                },
+                {
+                    "name": "eme",
+                    "homepage": "https://www.drupal.org/user/542492"
+                },
+                {
+                    "name": "fethi.krout",
+                    "homepage": "https://www.drupal.org/user/3206765"
+                },
+                {
+                    "name": "matio89",
+                    "homepage": "https://www.drupal.org/user/2320090"
+                },
+                {
+                    "name": "romainj",
+                    "homepage": "https://www.drupal.org/user/370706"
+                }
+            ],
+            "description": "Adds menu links like Flush cache, Run cron, Run updates, and Logout under Drupal icon.",
+            "homepage": "https://www.drupal.org/project/admin_toolbar",
+            "support": {
+                "source": "https://git.drupalcode.org/project/admin_toolbar"
+            },
+            "install-path": null
+        },
+        {
             "name": "drupal/adminimal_theme",
             "version": "1.6.0",
             "version_normalized": "1.6.0.0",

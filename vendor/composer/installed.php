@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6ec505bb901bac05d4aa1ccd05a34fb584e95af7',
+        'reference' => '80153b46aeae447ce8d43a12a18c5f09ccf040db',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -290,6 +290,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
             'aliases' => array(),
             'reference' => '3.0.3',
+            'dev_requirement' => false,
+        ),
+        'drupal/admin_toolbar_tools' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(),
+            'reference' => NULL,
             'dev_requirement' => false,
         ),
         'drupal/adminimal_theme' => array(
@@ -991,7 +1000,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6ec505bb901bac05d4aa1ccd05a34fb584e95af7',
+            'reference' => '80153b46aeae447ce8d43a12a18c5f09ccf040db',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
