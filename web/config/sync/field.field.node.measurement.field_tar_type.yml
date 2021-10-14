@@ -1,0 +1,28 @@
+uuid: f2931e19-00f1-45d2-bb02-4e67e3356b36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tar_type
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_tar_type
+field_name: field_tar_type
+entity_type: node
+bundle: measurement
+label: 'Tar Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: sada
+default_value_callback: ''
+settings: {  }
+field_type: list_string

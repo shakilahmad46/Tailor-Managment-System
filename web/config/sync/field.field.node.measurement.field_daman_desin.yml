@@ -1,0 +1,28 @@
+uuid: b5f502b5-58d7-45e8-888e-d9aeb7deb1e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_daman_desin
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_daman_desin
+field_name: field_daman_desin
+entity_type: node
+bundle: measurement
+label: 'Daman Design'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: gol
+default_value_callback: ''
+settings: {  }
+field_type: list_string

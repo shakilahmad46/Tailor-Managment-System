@@ -282,7 +282,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'PKXmkeCSUNF3JhuVFAi1YiwKXi32V4Q2t-znAXnLrFacLS7UhPxzk9lvuoW3pSzAZrI0KxIfYw';
+$settings['hash_salt'] = 'JpgTjEwT4kWvyU0cOSPKxvsPGqD0r24zu3Xi_-3BIso-sky8w6Ay2nlQlbSyaEOw2ppZ2R8tsw';
 
 /**
  * Deployment identifier.
@@ -785,18 +785,6 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
-
-$databases['default']['default'] = array (
-  'database' => 'techsang_imperial',
-  'username' => 'techsang_imperial',
-  'password' => 'dw8bR65C9S4)',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-
 /**
  * Load local development override configuration, if available.
  *
@@ -811,8 +799,21 @@ $databases['default']['default'] = array (
  * Keep this code block at the end of this file to take full effect.
  */
 
+
+$databases['default']['default'] = array (
+  'database' => 'tailor',
+  'username' => 'shakil',
+  'password' => 'shakil',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+
  if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
    include $app_root . '/' . $site_path . '/settings.local.php';
  }
 
 $settings['config_sync_directory'] = 'config/sync';
+$config['system.logging']['error_level'] = 'verbose';

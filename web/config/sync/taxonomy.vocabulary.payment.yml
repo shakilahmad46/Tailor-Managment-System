@@ -1,0 +1,8 @@
+uuid: 684c26be-a172-4c96-9a82-287345ae07cc
+langcode: en
+status: true
+dependencies: {  }
+name: Payment
+vid: payment
+description: ''
+weight: 0

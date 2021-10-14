@@ -1,0 +1,23 @@
+uuid: 30fe1863-3a4b-492a-baa9-1c7fe3cf1032
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - uikit
+_core:
+  default_config_hash: '-IPI9Njm2hzkv9TYr1aNrF4qWP4kqBIK3MJxfRB3g7Y'
+id: uikit_search
+theme: uikit
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

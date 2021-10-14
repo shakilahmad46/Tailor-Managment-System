@@ -1,0 +1,30 @@
+uuid: 285d0a99-57e4-46bc-8dad-312668e35018
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.orders
+  module:
+    - system
+    - views
+  theme:
+    - tailor
+id: tailor_views_block__orders_block_1
+theme: tailor
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:orders-block_1'
+settings:
+  id: 'views_block:orders-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/customer/*'
+    negate: false

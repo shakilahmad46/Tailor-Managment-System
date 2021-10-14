@@ -1,0 +1,29 @@
+uuid: a4a8421d-9b02-4f2b-92a8-59c28e7af7ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_s
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_s
+field_name: field_s
+entity_type: node
+bundle: measurement
+label: 'Shalwar gera'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

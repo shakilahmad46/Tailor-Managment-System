@@ -1,0 +1,29 @@
+uuid: 908d434a-dd01-4e1d-b7f2-3983da56d2fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mora
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_mora
+field_name: field_mora
+entity_type: node
+bundle: measurement
+label: Mora
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

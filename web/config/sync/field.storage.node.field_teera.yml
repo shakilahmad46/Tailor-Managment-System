@@ -1,0 +1,18 @@
+uuid: 95c946a2-eaa7-47ce-b08d-804d8e0faf49
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_teera
+field_name: field_teera
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

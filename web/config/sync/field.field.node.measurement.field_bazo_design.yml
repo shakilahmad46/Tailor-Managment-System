@@ -1,0 +1,28 @@
+uuid: 4f2c39ad-9edc-4825-a063-bf70b9ef7447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bazo_design
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_bazo_design
+field_name: field_bazo_design
+entity_type: node
+bundle: measurement
+label: 'Bazo Design'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: fit
+default_value_callback: ''
+settings: {  }
+field_type: list_string

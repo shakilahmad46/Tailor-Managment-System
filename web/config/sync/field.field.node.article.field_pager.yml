@@ -1,0 +1,29 @@
+uuid: 32e99d1e-ecc6-4d3c-9550-e6209290cd17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pager
+    - node.type.article
+    - node.type.page
+id: node.article.field_pager
+field_name: field_pager
+entity_type: node
+bundle: article
+label: page
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

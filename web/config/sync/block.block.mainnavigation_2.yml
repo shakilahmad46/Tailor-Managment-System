@@ -1,0 +1,25 @@
+uuid: 6c03cdfa-11e0-4eaf-adcb-24fe780402c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - uikit_admin
+id: mainnavigation_2
+theme: uikit_admin
+region: navbar_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

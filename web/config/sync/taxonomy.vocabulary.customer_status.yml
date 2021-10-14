@@ -1,0 +1,8 @@
+uuid: 29ec4ad7-53fd-4e52-84b9-0b3da270cc29
+langcode: en
+status: true
+dependencies: {  }
+name: 'Customer Status'
+vid: customer_status
+description: ''
+weight: 0

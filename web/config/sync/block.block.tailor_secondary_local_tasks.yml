@@ -1,0 +1,22 @@
+uuid: 3ee9c00f-4758-4d92-9c76-987d599a17ae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tailor
+_core:
+  default_config_hash: V7GM1m6Qh500cQE7LWZV8lRuwLqXdjR0S2kSk8pEv6g
+id: tailor_secondary_local_tasks
+theme: tailor
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

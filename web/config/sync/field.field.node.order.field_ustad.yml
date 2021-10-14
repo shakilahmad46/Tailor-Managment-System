@@ -1,0 +1,39 @@
+uuid: efe8edef-97ef-4320-8af4-b821be0d12bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ustad
+    - node.type.employees
+    - node.type.order
+  content:
+    - 'node:employees:e53919b3-2a03-4084-a11b-f60d8bf8eef7'
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_ustad
+field_name: field_ustad
+entity_type: node
+bundle: order
+label: Ustad
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: e53919b3-2a03-4084-a11b-f60d8bf8eef7
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      employees: employees
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

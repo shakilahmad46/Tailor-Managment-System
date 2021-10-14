@@ -1,0 +1,35 @@
+uuid: f4274cf2-56a5-477a-bd39-50dd555c17f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_payment
+    - node.type.order
+    - taxonomy.vocabulary.payment
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_payment
+field_name: field_payment
+entity_type: node
+bundle: order
+label: 'Payment Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      payment: payment
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

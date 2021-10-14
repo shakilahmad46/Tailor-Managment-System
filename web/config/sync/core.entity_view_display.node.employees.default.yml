@@ -1,0 +1,36 @@
+uuid: c7f95b78-8f58-4674-953a-020a12fc5415
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employees.field_employee_role
+    - node.type.employees
+  module:
+    - field_layout
+    - layout_discovery
+    - options
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.employees.default
+targetEntityType: node
+bundle: employees
+mode: default
+content:
+  field_employee_role:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

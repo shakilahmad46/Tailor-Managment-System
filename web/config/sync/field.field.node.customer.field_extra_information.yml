@@ -1,0 +1,25 @@
+uuid: 8d076cef-39f8-45e6-b20e-6b600b43201a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra_information
+    - node.type.customer
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.customer.field_extra_information
+field_name: field_extra_information
+entity_type: node
+bundle: customer
+label: 'More Information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

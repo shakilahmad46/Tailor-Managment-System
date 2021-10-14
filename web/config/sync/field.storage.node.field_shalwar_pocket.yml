@@ -1,0 +1,30 @@
+uuid: 0d725427-4f4f-4588-9084-9acc3ecc3da5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_shalwar_pocket
+field_name: field_shalwar_pocket
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: one
+      label: '1'
+    -
+      value: Two
+      label: '2'
+    -
+      value: none
+      label: 'No Pocket'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

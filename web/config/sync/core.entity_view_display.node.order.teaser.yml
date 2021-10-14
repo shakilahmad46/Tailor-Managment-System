@@ -1,0 +1,52 @@
+uuid: 8836c3b8-c1f6-41f5-b0d6-c5946f01ae20
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.order.body
+    - field.field.node.order.field_customer
+    - field.field.node.order.field_delivery_date
+    - field.field.node.order.field_measurement
+    - field.field.node.order.field_order_s
+    - field.field.node.order.field_payment
+    - field.field.node.order.field_quantity
+    - field.field.node.order.field_ustad
+    - node.type.order
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.order.teaser
+targetEntityType: node
+bundle: order
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_customer: true
+  field_delivery_date: true
+  field_measurement: true
+  field_order_s: true
+  field_payment: true
+  field_quantity: true
+  field_ustad: true
+  langcode: true

@@ -1,0 +1,28 @@
+uuid: 3e81463b-064e-481b-b439-689cfd3d14d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kaf_design
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_kaf_design
+field_name: field_kaf_design
+entity_type: node
+bundle: measurement
+label: 'Kaf Design'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: des1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

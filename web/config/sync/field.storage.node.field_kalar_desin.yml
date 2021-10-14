@@ -1,0 +1,21 @@
+uuid: b63e10a1-5c22-42d1-a74c-8b9d9bae09e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_kalar_desin
+field_name: field_kalar_desin
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

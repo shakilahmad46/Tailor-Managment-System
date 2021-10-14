@@ -1,0 +1,29 @@
+uuid: b92c44f7-0ad5-4b98-b482-b441a4ca8780
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shalwar_l
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_shalwar_l
+field_name: field_shalwar_l
+entity_type: node
+bundle: measurement
+label: 'Shalwar Lambai'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

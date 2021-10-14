@@ -1,0 +1,20 @@
+uuid: 2aa4633d-333f-4fe5-85f8-2de0ce266990
+langcode: en
+status: false
+dependencies:
+  theme:
+    - tailor
+_core:
+  default_config_hash: WImvmaBdDpwIqobqbDWebBnyxssRvrNEnZSQbOsvOe4
+id: tailor_page_title
+theme: tailor
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

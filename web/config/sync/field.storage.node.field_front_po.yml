@@ -1,0 +1,27 @@
+uuid: 0d53e0d1-5bc7-446c-8d2f-4286a0548b65
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_front_po
+field_name: field_front_po
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: '1'
+    -
+      value: '2'
+      label: '2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

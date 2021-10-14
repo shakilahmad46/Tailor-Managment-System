@@ -1,0 +1,39 @@
+uuid: e528c1c8-22fd-42ad-8fbf-09801c4d3f72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order_s
+    - node.type.order
+    - taxonomy.vocabulary.order_s
+  content:
+    - 'taxonomy_term:order_s:92ca007b-ae8f-43e5-b086-bc2050174f76'
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_order_s
+field_name: field_order_s
+entity_type: node
+bundle: order
+label: 'Order status'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 92ca007b-ae8f-43e5-b086-bc2050174f76
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      order_s: order_s
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

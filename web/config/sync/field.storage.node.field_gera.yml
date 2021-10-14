@@ -1,0 +1,18 @@
+uuid: 2c2003b8-8ed0-49d7-9b17-55488639b4cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_gera
+field_name: field_gera
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

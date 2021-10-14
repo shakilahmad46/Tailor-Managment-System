@@ -1,0 +1,25 @@
+uuid: a63766cc-4c38-4984-8cf3-ad4dbb08e330
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kalar_desin
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_kalar_desin
+field_name: field_kalar_desin
+entity_type: node
+bundle: measurement
+label: 'Kalar Design'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

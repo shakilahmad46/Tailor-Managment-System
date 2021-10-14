@@ -1,0 +1,18 @@
+uuid: dfc5653c-22a5-4620-9d38-65c49c4d251e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Measurement
+type: measurement
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

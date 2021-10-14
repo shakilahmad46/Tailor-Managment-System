@@ -1,0 +1,29 @@
+uuid: 824cad5c-4220-4c94-bafa-b38364617799
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gera
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_gera
+field_name: field_gera
+entity_type: node
+bundle: measurement
+label: Gera
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

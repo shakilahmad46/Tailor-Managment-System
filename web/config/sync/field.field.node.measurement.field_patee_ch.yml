@@ -1,0 +1,29 @@
+uuid: 58502ac8-9908-4763-873b-356fcae02267
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_patee_ch
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_patee_ch
+field_name: field_patee_ch
+entity_type: node
+bundle: measurement
+label: 'Patee Chorai'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

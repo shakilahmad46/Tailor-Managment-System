@@ -1,0 +1,31 @@
+uuid: a27bac24-ebae-4d6d-8ddb-5ee21c80ca0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_customer
+field_name: field_customer
+entity_type: node
+bundle: measurement
+label: Customer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: customers
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

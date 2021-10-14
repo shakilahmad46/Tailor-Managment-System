@@ -1,0 +1,30 @@
+uuid: df9c1426-2c57-4cfe-a107-6a88fdf6debb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.employees.field_employee_role
+    - node.type.employees
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.employees.teaser
+targetEntityType: node
+bundle: employees
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_employee_role: true
+  langcode: true

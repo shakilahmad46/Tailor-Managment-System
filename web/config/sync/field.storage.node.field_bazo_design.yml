@@ -1,0 +1,27 @@
+uuid: 39163f9d-1cb0-49f2-9e80-b1fadc715a17
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_bazo_design
+field_name: field_bazo_design
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: fit
+      label: Fit
+    -
+      value: wide
+      label: Wide
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

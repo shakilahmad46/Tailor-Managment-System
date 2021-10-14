@@ -1,0 +1,22 @@
+uuid: 993ff271-f1ff-4186-8cde-2122ce9fb09c
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - tailor
+_core:
+  default_config_hash: VV9kqYMqLSoPSMw-XVpo0auKK0RfnbQTkqYPVQxqaV0
+id: tailor_help
+theme: tailor
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

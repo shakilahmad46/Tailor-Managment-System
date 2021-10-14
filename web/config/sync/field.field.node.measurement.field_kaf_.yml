@@ -1,0 +1,29 @@
+uuid: 6f081cba-ed04-463a-b9dd-5b36cf238a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kaf_
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_kaf_
+field_name: field_kaf_
+entity_type: node
+bundle: measurement
+label: 'Kaf Lambai'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

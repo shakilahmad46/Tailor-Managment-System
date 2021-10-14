@@ -1,0 +1,28 @@
+uuid: 885f5bc5-3bc7-4782-b753-39742f835dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shalwar_pocket
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_shalwar_pocket
+field_name: field_shalwar_pocket
+entity_type: node
+bundle: measurement
+label: 'Shalwar Pocket'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

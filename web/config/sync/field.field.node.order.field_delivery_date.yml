@@ -1,0 +1,29 @@
+uuid: 38a27241-4a30-4a7f-b3df-73b723d5bfc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_delivery_date
+    - node.type.order
+  module:
+    - datetime
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_delivery_date
+field_name: field_delivery_date
+entity_type: node
+bundle: order
+label: 'Delivery Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+7 days'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

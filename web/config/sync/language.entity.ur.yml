@@ -1,0 +1,9 @@
+uuid: c094d36d-8494-4e4a-b8cb-30a574b668cb
+langcode: en
+status: true
+dependencies: {  }
+id: ur
+label: Urdu
+direction: rtl
+weight: 1
+locked: false

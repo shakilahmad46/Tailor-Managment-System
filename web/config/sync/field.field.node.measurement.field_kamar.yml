@@ -1,0 +1,29 @@
+uuid: 70ad47bd-c92f-4a38-8fbe-0b9119dc66ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kamar
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_kamar
+field_name: field_kamar
+entity_type: node
+bundle: measurement
+label: Kamar
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: !!float 99
+  prefix: ''
+  suffix: ''
+field_type: float

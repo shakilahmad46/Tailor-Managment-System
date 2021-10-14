@@ -1,0 +1,28 @@
+uuid: ca4ba3ac-0ded-411c-9a67-ef48887f0c2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salayee_type
+    - node.type.measurement
+  module:
+    - epp
+    - options
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_salayee_type
+field_name: field_salayee_type
+entity_type: node
+bundle: measurement
+label: 'Salayee Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: signle
+default_value_callback: ''
+settings: {  }
+field_type: list_string

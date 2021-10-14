@@ -1,0 +1,27 @@
+uuid: b7cbc543-971e-4a92-ac9e-7864a0c59781
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_patee_design
+field_name: field_patee_design
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: firs
+      label: First
+    -
+      value: second
+      label: Second
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

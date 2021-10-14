@@ -1,0 +1,31 @@
+uuid: ef978d54-36a9-403b-9d37-bc20aadc4714
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_measurement
+    - node.type.order
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_measurement
+field_name: field_measurement
+entity_type: node
+bundle: order
+label: Measurement
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: measurement
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

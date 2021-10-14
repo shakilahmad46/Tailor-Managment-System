@@ -1,0 +1,18 @@
+uuid: 62a6aa94-fd92-42b0-9a14-db81fc16cd10
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_bazo_lambai
+field_name: field_bazo_lambai
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

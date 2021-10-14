@@ -1,0 +1,25 @@
+uuid: 93fca7cf-adee-4eba-8313-7a77f9b64f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra_information
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_extra_information
+field_name: field_extra_information
+entity_type: node
+bundle: measurement
+label: 'Extra Information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

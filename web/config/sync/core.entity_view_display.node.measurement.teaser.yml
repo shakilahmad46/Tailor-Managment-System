@@ -1,0 +1,88 @@
+uuid: 3f0a5a95-9685-4e9f-b8b6-408feb04c802
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.measurement.field_bain
+    - field.field.node.measurement.field_bazo_design
+    - field.field.node.measurement.field_bazo_lambai
+    - field.field.node.measurement.field_buttons_on_patee
+    - field.field.node.measurement.field_chatee
+    - field.field.node.measurement.field_customer
+    - field.field.node.measurement.field_daman_desin
+    - field.field.node.measurement.field_extra_information
+    - field.field.node.measurement.field_front_po
+    - field.field.node.measurement.field_gera
+    - field.field.node.measurement.field_kaf_
+    - field.field.node.measurement.field_kaf_c
+    - field.field.node.measurement.field_kaf_design
+    - field.field.node.measurement.field_kalar
+    - field.field.node.measurement.field_kalar_desin
+    - field.field.node.measurement.field_kalar_lambai
+    - field.field.node.measurement.field_kamar
+    - field.field.node.measurement.field_lambai
+    - field.field.node.measurement.field_mora
+    - field.field.node.measurement.field_painch
+    - field.field.node.measurement.field_patee_ch
+    - field.field.node.measurement.field_patee_design
+    - field.field.node.measurement.field_patee_la
+    - field.field.node.measurement.field_s
+    - field.field.node.measurement.field_salayee_type
+    - field.field.node.measurement.field_shalwar_l
+    - field.field.node.measurement.field_shalwar_pocket
+    - field.field.node.measurement.field_side_poc
+    - field.field.node.measurement.field_tar_type
+    - field.field.node.measurement.field_teera
+    - node.type.measurement
+  module:
+    - field_layout
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.measurement.teaser
+targetEntityType: node
+bundle: measurement
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_bain: true
+  field_bazo_design: true
+  field_bazo_lambai: true
+  field_buttons_on_patee: true
+  field_chatee: true
+  field_customer: true
+  field_daman_desin: true
+  field_extra_information: true
+  field_front_po: true
+  field_gera: true
+  field_kaf_: true
+  field_kaf_c: true
+  field_kaf_design: true
+  field_kalar: true
+  field_kalar_desin: true
+  field_kalar_lambai: true
+  field_kamar: true
+  field_lambai: true
+  field_mora: true
+  field_painch: true
+  field_patee_ch: true
+  field_patee_design: true
+  field_patee_la: true
+  field_s: true
+  field_salayee_type: true
+  field_shalwar_l: true
+  field_shalwar_pocket: true
+  field_side_poc: true
+  field_tar_type: true
+  field_teera: true
+  langcode: true

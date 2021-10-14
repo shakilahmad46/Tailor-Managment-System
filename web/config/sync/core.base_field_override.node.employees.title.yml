@@ -1,0 +1,18 @@
+uuid: f6df498b-7834-4327-a631-bd3de43123b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.employees
+id: node.employees.title
+field_name: title
+entity_type: node
+bundle: employees
+label: 'Employee Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

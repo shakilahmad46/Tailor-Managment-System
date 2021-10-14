@@ -1,0 +1,31 @@
+uuid: 3499808d-b1dc-4e6b-8036-b071daec0648
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_buttons_on_patee
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_buttons_on_patee
+field_name: field_buttons_on_patee
+entity_type: node
+bundle: measurement
+label: 'Buttons on patee'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 4
+default_value_callback: ''
+settings:
+  min: 0
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

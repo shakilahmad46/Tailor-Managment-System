@@ -1,0 +1,33 @@
+uuid: fc0c42e7-6e80-47a9-bf15-835c27f1db83
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_salayee_type
+field_name: field_salayee_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: double
+      label: Double
+    -
+      value: triple
+      label: Triple
+    -
+      value: signle
+      label: Single
+    -
+      value: 'چوکه سلاې3/3'
+      label: 'چوکه سلاي 3/3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

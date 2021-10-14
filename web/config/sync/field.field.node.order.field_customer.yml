@@ -1,0 +1,39 @@
+uuid: 4a8574c1-7437-401f-8177-0af2cddcb1e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer
+    - node.type.employees
+    - node.type.order
+  content:
+    - 'node:employees:e53919b3-2a03-4084-a11b-f60d8bf8eef7'
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.order.field_customer
+field_name: field_customer
+entity_type: node
+bundle: order
+label: Cutter
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: e53919b3-2a03-4084-a11b-f60d8bf8eef7
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      employees: employees
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
