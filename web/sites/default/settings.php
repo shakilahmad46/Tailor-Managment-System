@@ -801,9 +801,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 
 $databases['default']['default'] = array (
-  'database' => 'tailor',
-  'username' => 'shakil',
-  'password' => 'shakil',
+  'database' => 'techsang_imperial',
+  'username' => 'techsang_imperial',
+  'password' => 'dw8bR65C9S4)',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
