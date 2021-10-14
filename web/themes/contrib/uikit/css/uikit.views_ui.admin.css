@@ -1,0 +1,77 @@
+.views-displays .tabs.secondary {
+  list-style: none;
+}
+.views-displays .secondary .open > a {
+  border-radius: 7px 7px 0 0;
+}
+.views-displays .secondary .action-list li {
+  cursor: pointer;
+}
+.views-displays .secondary .action-list li:first-child {
+  border-radius: 0 7px 0 0; /* LTR */
+}
+[dir="rtl"] .views-displays .secondary .action-list li:first-child {
+  border-radius: 7px 0 0 0;
+}
+.views-displays .secondary .action-list li:last-child {
+  border-radius: 0 0 7px 7px;
+}
+.views-displays .secondary .action-list input.form-submit {
+  color: #1976d2;
+  font-weight: 600;
+}
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action > * {
+  font-size: 12px;
+  text-transform: none;
+}
+.view-preview-form .form-item-view-args label {
+  float: left;
+  font-weight: normal;
+  height: 6ex;
+  margin-right: 0.75em;
+}
+.view-preview-form .form-item-view-args .uk-form-controls {
+  display: inline-block;
+  width: 500px;
+}
+.views-remove-checkbox {
+  display: none;
+}
+.views-ui-dialog .scroll {
+  margin: 0 !important;
+}
+.views-ui-dialog .form-composite {
+  border: 0;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+.views-ui-dialog .form-composite > .uk-legend {
+  padding: 0;
+}
+.views-ui-dialog .form-select {
+  -webkit-appearance: menulist !important;
+  background: #fff !important;
+  padding-right: 10px !important;
+  width: auto;
+}
+.views-ui-dialog .form-text {
+  width: auto !important;
+}
+.views-ui-dialog .form-item .uk-text-meta {
+  clear: both;
+  margin-top: 5px !important;
+}
+.views-ui-dialog .form-type-checkbox,
+.views-ui-dialog .form-type-radio {
+  margin: 0 0 6px 0 !important;
+}
+.views-ui-dialog .form-type-checkbox label,
+.views-ui-dialog .form-type-radio label {
+  padding: 0;
+  width: 100%;
+}
+.views-ui-dialog .form-type-checkbox .uk-text-meta,
+.views-ui-dialog .form-type-radio .uk-text-meta {
+  margin-top: 0 !important;
+  padding-left: 22px;
+}

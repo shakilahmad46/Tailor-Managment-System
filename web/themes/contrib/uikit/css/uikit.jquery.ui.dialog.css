@@ -1,0 +1,12 @@
+.ui-dialog .ui-dialog-titlebar-close {
+  right: .625em;
+}
+.ui-dialog .ui-widget-content.ui-dialog-buttonpane {
+  background: #f8f8f8;
+  margin: 0;
+  padding: 15px 20px;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none;
+}
+.ui-dialog .ui-widget-content

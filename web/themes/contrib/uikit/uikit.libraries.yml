@@ -1,0 +1,145 @@
+uikit:
+  remote: https://getuikit.com/
+  version: 3.5.9
+  license:
+    name: MIT
+    url: https://github.com/uikit/uikit/blob/develop/LICENSE.md
+    gpl-compatible: true
+  css:
+    base:
+      https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css: { type: external, minified: true }
+  js:
+    //cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js: { type: external, minified: true }
+    //cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+uikit.admin:
+  version: VERSION
+  css:
+    theme:
+      css/uikit.admin.css: { weight: 20 }
+  js:
+    js/uikit.admin.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+global-style:
+  version: VERSION
+  css:
+    base:
+      css/uikit.base.css: {}
+    layout:
+      css/uikit.layout.css: {}
+    component:
+      css/uikit.component.css: {}
+    theme:
+      css/uikit.theme.css: {}
+  js:
+    js/uikit.theme.js: {}
+  dependencies:
+    - uikit/uikit
+
+active-link:
+  version: VERSION
+  js:
+    js/uikit.active-link.js: {}
+  dependencies:
+    - uikit/uikit
+
+comment-new-indicator:
+  version: VERSION
+  js:
+    js/uikit.comment-new-indicator.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - history/api
+    - core/drupal.displace
+    - uikit/uikit
+
+autocomplete:
+  version: VERSION
+  js:
+    js/uikit.autocomplete.js: {}
+  dependencies:
+    - uikit/uikit
+
+dropbutton:
+  version: VERSION
+  css:
+    component:
+      css/uikit.dropbutton.css: {}
+  dependencies:
+    - uikit/uikit
+
+jquery.ui:
+  version: VERSION
+  css:
+    theme:
+      css/uikit.jquery.ui.css: {}
+  dependencies:
+    - uikit/uikit
+
+jquery.ui.dialog:
+  version: VERSION
+  css:
+    theme:
+      css/uikit.jquery.ui.dialog.css: {}
+  dependencies:
+    - uikit/uikit
+
+progress:
+  version: VERSION
+  js:
+    js/uikit.progress.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings
+    - uikit/uikit
+
+tableheader:
+  version: VERSION
+  js:
+    js/uikit.tableheader.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/drupal.displace
+    - uikit/uikit
+
+tableselect:
+  version: VERSION
+  js:
+    js/uikit.tableselect.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - uikit/uikit
+
+toolbar.menu:
+  version: VERSION
+  css:
+    state:
+      css/uikit.toolbar.menu.css: {}
+  dependencies:
+    - uikit/uikit
+
+views_ui.admin.styling:
+  version: VERSION
+  css:
+    component:
+      css/uikit.views_ui.admin.css: {}
+    theme:
+      css/uikit.views_ui.admin.theme.css: {}
+  dependencies:
+    - uikit/uikit

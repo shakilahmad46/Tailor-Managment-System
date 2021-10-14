@@ -1,0 +1,15 @@
+.ui-widget-overlay {
+  opacity: 1;
+  background: rgba(0,0,0,0.6);
+}
+.ui-widget.ui-widget-content {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.ui-dialog .ui-dialog-titlebar {
+  background: #1e87f0;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+}

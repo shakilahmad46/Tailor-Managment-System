@@ -1,0 +1,63 @@
+global-style:
+  version: VERSION
+  css:
+    base:
+      css/base.css: {}
+    layout:
+      css/layout.css: {}
+    component:
+      css/component.css: {}
+    theme:
+      css/theme.css: {}
+  js:
+    js/theme.js: {}
+  dependencies:
+    - toolbar/toolbar
+    - uikit/global-style
+
+system.admin:
+  version: VERSION
+  css:
+    theme:
+      css/theme/system.admin.css: { weight: -10 }
+  dependencies:
+    - uikit/global-style
+
+system.status_report:
+  version: VERSION
+  css:
+    component:
+      css/component/system-status-counter.css: {}
+      css/component/system-status-report.css: {}
+      css/component/system-status-report-counters.css: {}
+      css/component/system-status-report-general-info.css: {}
+  dependencies:
+    - uikit/global-style
+
+tableheader:
+  version: VERSION
+  js:
+    js/tableheader.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/drupal.displace
+    - uikit/uikit
+
+user:
+  version: VERSION
+  css:
+    theme:
+      css/theme/user.css: {}
+  dependencies:
+    - uikit/global-style
+
+views_ui.admin.styling:
+  version: VERSION
+  css:
+    theme:
+      css/theme/views_ui.admin.theme.css: {}
+  dependencies:
+    - uikit/views_ui.admin.styling

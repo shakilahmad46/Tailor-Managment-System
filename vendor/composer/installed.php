@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '60c87df21ed4c75fc25d5d497b54bfc9ace794af',
+        'reference' => '8bb261fdac3b5ceb7189eb3051bb3745497e3fa7',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -976,7 +976,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '60c87df21ed4c75fc25d5d497b54bfc9ace794af',
+            'reference' => '8bb261fdac3b5ceb7189eb3051bb3745497e3fa7',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -1104,6 +1104,24 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/uikit' => array(
+            'pretty_version' => '3.15.0',
+            'version' => '3.15.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/uikit',
+            'aliases' => array(),
+            'reference' => '8.x-3.15',
+            'dev_requirement' => false,
+        ),
+        'drupal/uikit_admin' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/uikit_admin',
+            'aliases' => array(),
+            'reference' => '8.x-3.1',
+            'dev_requirement' => false,
         ),
         'drupal/update' => array(
             'dev_requirement' => false,

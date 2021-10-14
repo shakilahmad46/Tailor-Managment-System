@@ -1,0 +1,46 @@
+name: UIkit
+type: theme
+description: 'A lightweight frontend framework with a comprehensive collection of HTML, CSS, and JS components.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable
+package: UIkit
+
+regions:
+  navbar: 'Navigation Bar'
+  offcanvas: 'Offcanvas Navigation'
+  content: Content
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer: 'Footer'
+
+libraries:
+  - uikit/uikit
+  - uikit/global-style
+
+libraries-extend:
+  core/drupal.active-link:
+    - uikit/active-link
+  core/drupal.autocomplete:
+    - uikit/autocomplete
+  core/drupal.dropbutton:
+    - uikit/dropbutton
+  core/jquery.ui:
+    - uikit/jquery.ui
+  core/jquery.ui.dialog:
+    - uikit/jquery.ui.dialog
+  toolbar/toolbar.menu:
+    - uikit/toolbar.menu
+  views_ui/admin.styling:
+    - uikit/views_ui.admin.styling
+
+libraries-override:
+  core/drupal.progress: uikit/progress
+  core/drupal.tableheader: uikit/tableheader
+  core/drupal.tableselect: uikit/tableselect
+  comment/drupal.comment-new-indicator: uikit/comment-new-indicator
+
+# Information added by Drupal.org packaging script on 2020-10-23
+version: '8.x-3.15'
+project: 'uikit'
+datestamp: 1603416089

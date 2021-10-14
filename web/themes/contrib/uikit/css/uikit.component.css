@@ -1,0 +1,181 @@
+/**
+ * @file
+ * Discrete, reusable UI elements.
+ */
+
+/**
+ * Toolbar module.
+ *
+ * All menus receive the uk-list class, which disrupts the flow of the toolbar
+ * tray menus. We may end up adding a toolbar tray menu template in the future.
+ */
+#toolbar-administration {
+  z-index: 1000 !important;
+}
+.toolbar-tray>nav>ul,
+.toolbar-tray>nav>ul>li:nth-child(n+2),
+.toolbar-tray>nav>ul>li>ul {
+  margin: 0;
+}
+
+/**
+ * Forms.
+ */
+fieldset.form-wrapper {
+  border: 1px solid #ddd;
+  margin: 15px 0;
+  padding: 15px;
+}
+fieldset.form-wrapper legend {
+  padding: 0 10px;
+  width: auto;
+}
+fieldset.form-wrapper legend:after {
+  display: none;
+}
+.form-actions *+input:not([type="hidden"]) {
+  margin-left: 5px;
+}
+
+/**
+ * Composite forms.
+ */
+.form-composite {
+  border: 1px solid #eee;
+  margin: 15px 0;
+  padding: 20px;
+}
+.form-composite > .uk-legend {
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 0 10px;
+  width: auto;
+}
+
+/**
+ * Drupal buttons.
+ */
+.link:not(.uk-button) {
+  display: inline;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #1976d2;
+  text-decoration: none;
+}
+.link:not(.uk-button):focus,
+.link:not(.uk-button):hover {
+  color: #0f6ecd;
+  text-decoration: underline;
+}
+
+/**
+ * UIkit buttons.
+ */
+.uk-button-default {
+  background-color: #f8f8f8;
+}
+.uk-button-default:focus,
+.uk-button-default:hover,
+.uk-button-default.uk-active,
+.uk-button-default:active {
+  background-color: #fff;
+}
+.uk-dropdown-nav>li>button,
+.uk-dropdown-nav>li>input {
+  background-color: transparent;
+  border: 0;
+  color: #999;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 5px 0;
+  text-transform: none;
+  transition: none;
+}
+.uk-dropdown-nav>li>button:hover,
+.uk-dropdown-nav>li>button:focus,
+.uk-dropdown-nav>li>input:hover,
+.uk-dropdown-nav>li>input:focus,
+.uk-dropdown-nav>li.uk-active>button,
+.uk-dropdown-nav>li.uk-active>input {
+  color: #666;
+}
+.uk-subnav>*>.uk-button-primary:first-child,
+.uk-subnav>*>.uk-button-secondary:first-child,
+.uk-subnav>*>.uk-button-danger:first-child {
+  color: #fff;
+}
+
+/**
+ * UIkit lists.
+ */
+.uk-list>li.uk-active>a {
+  color: #666;
+}
+
+/**
+ * Sticky nav.
+ */
+@media (max-width: 767px) {
+  body.toolbar-vertical [uk-sticky],
+  body.toolbar-horizontal [uk-sticky] {
+    top: 0 !important;
+    position: static !important;
+  }
+}
+@media (min-width: 768px) {
+  body.toolbar-vertical [uk-sticky],
+  body.toolbar-horizontal [uk-sticky] {
+    top: 39px !important;
+  }
+  body.toolbar-horizontal.toolbar-tray-open [uk-sticky] {
+    top: 78px !important;
+  }
+}
+
+/**
+ * Responsive tables
+ */
+@media screen and (max-width: 37.5em) { /* 600px */
+  th.priority-low,
+  td.priority-low,
+  th.priority-medium,
+  td.priority-medium {
+    display: none;
+  }
+}
+@media screen and (max-width: 60em) { /* 920px */
+  th.priority-low,
+  td.priority-low {
+    display: none;
+  }
+}
+
+/**
+ * UIkit tables
+ */
+.uk-table.sticky-header thead {
+  background: #e5e5e5;
+  border-bottom: 1px solid #ccc;
+}
+.uk-table.sticky-header th {
+  font-weight: 600;
+}
+
+/**
+ * Vertical tabs
+ */
+.vertical-tabs__panes .form-wrapper+.form-wrapper {
+  margin-top: 0 !important;
+}
+
+/**
+ * Remove default style in iOS.
+ */
+input[type="submit"],
+input[type="button"] {
+  -webkit-appearance: none;
+}

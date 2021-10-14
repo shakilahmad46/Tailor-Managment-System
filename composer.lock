@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f267d9db1e9d30b9ed8aba649c9dc08",
+    "content-hash": "c867fa38605041c8bdf18a5cbf099ffd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3668,6 +3668,123 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/uikit",
+            "version": "3.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/uikit.git",
+                "reference": "8.x-3.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/uikit-8.x-3.15.zip",
+                "reference": "8.x-3.15",
+                "shasum": "3c10270d51ba0e967ade5908967bee747ee2b050"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.15",
+                    "datestamp": "1603416087",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Buchanan (richard-buchanan)",
+                    "homepage": "https://www.drupal.org/u/richard-buchanan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "andy-blum",
+                    "homepage": "https://www.drupal.org/user/3507787"
+                },
+                {
+                    "name": "pfrilling",
+                    "homepage": "https://www.drupal.org/user/169695"
+                }
+            ],
+            "description": "A lightweight frontend framework with a comprehensive collection of HTML, CSS, and JS components.",
+            "homepage": "https://www.drupal.org/project/uikit",
+            "support": {
+                "source": "http://cgit.drupalcode.org/uikit",
+                "docs": "http://uikit-drupal.com",
+                "issues": "https://www.drupal.org/project/issues/uikit"
+            }
+        },
+        {
+            "name": "drupal/uikit_admin",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/uikit_admin.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/uikit_admin-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "d9dabb6223ddf7f9f6d1e45ca90bf1feb41a5129"
+            },
+            "require": {
+                "drupal/core": "~8.0 || ~9.0",
+                "drupal/uikit": "~3.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1631962417",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Webship",
+                    "homepage": "https://www.drupal.org/webship",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "RajabNatshah",
+                    "homepage": "https://www.drupal.org/user/1414312"
+                },
+                {
+                    "name": "Richard Buchanan",
+                    "homepage": "https://www.drupal.org/user/2638993"
+                },
+                {
+                    "name": "TasneemNatshah",
+                    "homepage": "https://www.drupal.org/user/1891690"
+                }
+            ],
+            "description": "A one-column administration theme based on UIkit for Drupal.",
+            "homepage": "https://www.drupal.org/project/uikit_admin",
+            "support": {
+                "source": "http://cgit.drupalcode.org/uikit_admin",
+                "issues": "http://drupal.org/project/issues/uikit_admin"
             }
         },
         {

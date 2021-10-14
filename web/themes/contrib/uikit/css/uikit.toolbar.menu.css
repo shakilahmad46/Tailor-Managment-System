@@ -1,0 +1,16 @@
+/**
+ * jQuery UI Dialogs
+ *
+ * jQuery UI dialogs at times will have a top offset position higher than the
+ * toolbar menu, obscuring the dialog title header. Here we set a hard value for
+ * the top offset position to bring the title header back into view.
+ *
+ * @see https://www.drupal.org/project/drupal/issues/2822778
+ */
+body.toolbar-horizontal .ui-widget.ui-widget-content,
+body.toolbar-vertical .ui-widget.ui-widget-content {
+  top: 60px !important;
+}
+body.toolbar-horizontal.toolbar-tray-open .ui-widget.ui-widget-content {
+  top: 100px !important;
+}

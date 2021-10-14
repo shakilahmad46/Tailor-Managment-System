@@ -1,0 +1,183 @@
+/**
+ * @file
+ * The .admin.theme.css file is intended to contain presentation declarations
+ * including images, borders, colors, and fonts.
+ */
+
+.views-admin a.icon {
+  background: linear-gradient(-90deg, #fff 0, #e8e8e8 100%) no-repeat, repeat-y;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 0 rgba(0,0,0,0.3333) inset;
+}
+.views-admin a.icon:hover {
+  border-color: #d0d0d0;
+  box-shadow: 0 0 1px rgba(0,0,0,0.3333) inset;
+}
+.views-admin a.icon:active {
+  border-color: #c0c0c0;
+}
+.views-displays {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 0 !important;
+}
+.views-display-top {
+  background-color: #eee;
+  border-bottom: 1px solid #e5e5e5;
+}
+.form-edit .form-actions {
+  background-color: #eee;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  margin-top: 0 !important;
+}
+.views-displays .tabs.secondary a {
+  border: 1px solid #cbcbcb;
+}
+.views-displays .tabs.secondary li a {
+  background-color: #fff;
+}
+.views-displays .tabs li a:hover,
+.views-displays .tabs li.uk-active a,
+.views-displays .tabs li.is-active a,
+.views-displays .tabs li.is-active a.is-active {
+  background-color: #1976d2;
+  color: #fff;
+}
+.views-displays .tabs .open > a {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid transparent;
+}
+.views-displays .tabs .open > a:hover {
+  color: #0074bd;
+  background-color: #f1f1f1;
+}
+.views-displays .tabs .action-list li {
+  background-color: #f1f1f1;
+  border-color: #cbcbcb;
+}
+.views-displays .tabs .action-list input.form-submit {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+}
+.views-displays .tabs .action-list li:hover {
+  background-color: #ddd;
+}
+.views-ui-display-tab-bucket__title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.views-ui-display-tab-bucket__title,
+.views-ui-display-tab-bucket > .views-display-setting {
+  padding: 4px 6px 8px;
+}
+.views-display-setting .label {
+  font-weight: 600;
+}
+.edit-display-settings-top.views-ui-display-tab-bucket {
+  border: 1px solid #f3f3f3;
+}
+.views-display-column {
+  border: 1px solid #f3f3f3;
+}
+.views-ui-display-tab-bucket {
+  border-bottom: 1px solid #f3f3f3;
+}
+.views-ui-display-tab-bucket + .views-ui-display-tab-bucket {
+  border-top: medium none;
+}
+.views-ui-display-tab-bucket.page-settings {
+  border-bottom: medium none;
+}
+.views-ui-display-tab-bucket .views-display-setting {
+  font-size: 14px;
+}
+.views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
+  background-color: #f8f8f8;
+}
+.views-ui-display-tab-actions.views-ui-display-tab-bucket .views-display-setting {
+  background-color: transparent;
+}
+.views-filterable-options {
+  border-top:  1px solid #e5e5e5;
+}
+.views-ui-dialog .views-override {
+  background-color: #f8f8f8;
+}
+.views-ui-dialog .views-override:not(:empty) {
+  background-color: #f8f8f8;
+}
+.views-ui-dialog .views-offset-top {
+  border-bottom: 1px solid #e5e5e5;
+}
+.views-ui-dialog .views-override > * {
+  margin: 0 10px 0 0 !important;
+}
+.views-ui-dialog .views-offset-bottom {
+  border-top: 1px solid #e5e5e5;
+}
+.views-ui-dialog .views-progress-indicator {
+  color: #fff;
+}
+.views-ui-rearrange-filter-form tr td[rowspan] {
+  border-color: #cdcdcd;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+}
+.views-ui-rearrange-filter-form tr[id^="views-row"] {
+  border-right: 1px solid #cdcdcd; /* LTR */
+}
+[dir="rtl"] .views-ui-rearrange-filter-form tr[id^="views-row"] {
+  border-left: 1px solid #cdcdcd;
+  border-right: 0;
+}
+.views-ui-rearrange-filter-form .even td {
+  background-color: #f3f4ed;
+}
+.views-ui-rearrange-filter-form .views-group-title {
+  border-top: 1px solid #cdcdcd;
+}
+.views-ui-rearrange-filter-form .group-empty {
+  border-bottom: 1px solid #cdcdcd;
+}
+.views-preview-wrapper {
+  border: 1px solid #e5e5e5;
+}
+.view-preview-form .form-item-live-preview {
+  top: 8px;
+  margin: 0 !important;
+}
+.view-preview-form__title {
+  background-color: #eee;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 18px;
+}
+.views-live-preview .section-title {
+  color: #818181;
+}
+.views-live-preview .preview-section {
+  border: 1px dashed #dedede;
+}
+.views-query-info table {
+  border-color: #ddd;
+}
+.views-query-info table tr {
+  background-color: #f9f9f9;
+}
+.views-query-info table th,
+.views-query-info table td {
+  color: #666;
+}
+.js .dropbutton-wrapper.dropbutton-multiple.open .dropbutton-action:first-child a {
+  border-radius: 1.1em 0 0 0; /* LTR */
+}
+[dir="rtl"].js .dropbutton-wrapper.dropbutton-multiple.open .dropbutton-action:first-child a {
+  border-radius: 0 1.1em 0 0;
+}
+.js .dropbutton-wrapper.dropbutton-multiple.open .dropbutton-action:last-child a {
+  border-radius: 0 0 0 1.1em; /* LTR */
+}
+[dir="rtl"].js .dropbutton-wrapper.dropbutton-multiple.open .dropbutton-action:last-child a {
+  border-radius: 0 0 1.1em 0;
+}
