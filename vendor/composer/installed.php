@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b035cc969088f44a780fe9afa1f3d8ff5c1dd678',
+        'reference' => '5bca7916d14d47e6bf409bda47cabc9113053c78',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -284,15 +284,6 @@
             'install_path' => NULL,
             'aliases' => array(),
             'reference' => NULL,
-            'dev_requirement' => false,
-        ),
-        'drupal/adminimal_theme' => array(
-            'pretty_version' => '1.6.0',
-            'version' => '1.6.0.0',
-            'type' => 'drupal-theme',
-            'install_path' => __DIR__ . '/../../web/themes/contrib/adminimal_theme',
-            'aliases' => array(),
-            'reference' => '8.x-1.6',
             'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
@@ -976,7 +967,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b035cc969088f44a780fe9afa1f3d8ff5c1dd678',
+            'reference' => '5bca7916d14d47e6bf409bda47cabc9113053c78',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(

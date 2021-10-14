@@ -19,7 +19,6 @@
         "drupal/address": "^1.9",
         "drupal/admin_toolbar": "^3.0",
         "drupal/admin_toolbar_tools": "^3.0",
-        "drupal/adminimal_theme": "^1.6",
         "drupal/asset_injector": "^2.7",
         "drupal/backup_migrate": "^5.0",
         "drupal/console": "~1.0",
