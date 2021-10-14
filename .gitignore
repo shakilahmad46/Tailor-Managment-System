@@ -22,7 +22,6 @@
 /web/sites/simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/core
 /web/modules/README.txt
 /web/profiles/README.txt
 /web/sites/README.txt
