@@ -19,26 +19,6 @@
 /web/sites/*/cache
 
 # Ignore testing related files
-/web/sites/simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/modules/README.txt
-/web/profiles/README.txt
-/web/sites/README.txt
-/web/sites/example.sites.php
-/web/sites/example.settings.local.php
-/web/sites/development.services.yml
-/web/themes/README.txt
-/.csslintrc
-/.editorconfig
-/web/.eslintignore
-/web/.eslintrc.json
-/web/.htaccess
-/web/autoload.php
-/web/example.gitignore
-/web/index.php
-/web/LICENSE.txt
-/web/README.txt
-/web/robots.txt
-/web/update.php
-/web/web.config
+
