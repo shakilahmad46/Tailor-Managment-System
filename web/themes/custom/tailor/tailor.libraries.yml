@@ -4,4 +4,4 @@ global-styling:
     theme:
       templates/style.css : {}
    js:
-     #js/your_js.js : {}
+     js/your_js.js : {}

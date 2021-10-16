@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Measurment Recipt</title>
+  <link rel="stylesheet" href="tailor.css" />
+</head>
+
+<body>
+
+  <div class="flexrecipt">
+    <div class="fitem">
+      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>
+    </div>
+    <div class="fitem">
+      <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>
+    </div>
+    <div class="fitem">
+      <div> <em>ناپ نمبر:</em>
+        <b>{{ nid }}</b></div>
+      <div><em>تاریخ آمد:</em>
+        <b>{{ created }}</b></div>
+      <div><em>کسٹمر نام: </em>
+        <b>{{ field_customer }}</b></div>
+      <div><em>تاریخ واپسی:</em>
+        <b>{{ field_delivery_date }}</b></div>
+      <div><em>استاد کا نام:</em>
+        <b>{{ field_customer_1 }}</b></div>
+      <div> <em>کٹر کا نام:</em>
+        <b>{{ field_customer_1 }}</b></div>
+
+    </div>
+    <div class="fitem">
+      <div class="nafTable">
+        <em>لمبائی</em>
+        <p>{{ field_lambai }}</p>
+        <em> بازو</em>
+        <p> {{ field_bazo_lambai}} </p>
+        <em>تیرہ</em>
+        <p> {{ field_teera }} </p>
+        <em>کالر</em>
+        <p> {{ field_kalar }} </p>
+        <em>چھاتی</em>
+        <p> {{ field_chatee }} </p>
+        <em>کمر</em>
+        <p> {{ field_kamar }} </p>
+        <em>گھیرا</em>
+        <p> {{ field_gera }} </p>
+        <em>شلوار لمبائی</em>
+        <p> {{ field_shalwar_l}} </p>
+        <em> پاینچا</em>
+        <p> {{ field_painch }} </p>
+        <em>موڑا</em>
+        <p> {{ field_mora }} </p>
+        <em>سلائی قسم</em>
+        <p> {{ field_salayee_type }} </p>
+
+      </div>
+      <div class="symbols">
+        <div><b> </b><p>{{ field_bain }} </p></div>
+        <div><b> </b><p>{{field_kaf_ }} </p></div>
+        <div><b> </b><p>{{field_kaf_c }} </p></div>
+        <div><b> </b><p>{{field_kaf_design }} </p></div>
+        <div><b> </b><p>{{field_side_poc }} </p></div>
+        <div><b> </b><p>{{field_shalwar_pocket }} </p></div>
+        <div><b> </b><p>{{field_daman_desin }} </p></div>
+        <div><b> </b><p>{{field_patee_ch }} </p></div>
+        <div><b> </b><p>{{field_patee_la }} </p></div>
+        <div><b> </b><p>{{field_patee_design }} </p></div>
+        <div><b> </b><p>{{field_buttons_on_patee }} </p></div>
+        
+      </div>
+    </div>
+
+
+
+  </div>
+  <!-- Print page -->
+
+
+
+  <div class="invboxgrid" id="raseedPrint">
+    <div class="div1">
+      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>
+    </div>
+    <div class="div2">
+      <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>
+    </div>
+    <div class="div3">
+      <em>ناپ نمبر:</em>
+      <b>{{ nid }}</b>
+      <hr />
+    </div>
+    <div class="div4">
+      <em>تاریخ آمد:</em>
+      <b>{{ created }}</b>
+      <hr />
+    </div>
+    <div class="div5">
+      <em>کسٹمر نام: </em>
+      <b>{{ field_customer }}</b>
+      <hr />
+    </div>
+    <div class="div6">
+      <em>تاریخ واپسی:</em>
+      <b>{{ field_delivery_date }}</b>
+      <hr />
+    </div>
+    <div class="div7">
+      <em>استاد کا نام:</em>
+      <b>{{ field_customer_1 }}</b>
+      <hr />
+    </div>
+    <div class="div8">
+      <em>کٹر کا نام:</em>
+      <b>{{ field_customer_1 }}</b>
+      <hr />
+    </div>
+    <div class="div9">
+      <div class="subgrid1">
+        <div class="subdiv1"><em>لمبائی</em></div>
+        <div class="subdiv1">
+          <p></p>
+        </div>
+        <div class="subdiv1"><em>بازو</em></div>
+        <div class="subdiv1">
+          <p>{{ field_bazo_lambai }}</p>
+        </div>
+
+        <div class="subdiv1"><em>تیرہ</em></div>
+        <div class="subdiv1">
+          <p>{{ field_teera }}</p>
+        </div>
+
+        <div class="subdiv1"><em>کالر</em></div>
+        <div class="subdiv1">
+          <p>{{ field_kalar }}</p>
+        </div>
+
+        <div class="subdiv1"><em>چھاتی</em></div>
+        <div class="subdiv1">
+          <p>{{ field_chatee }}</p>
+        </div>
+
+        <div class="subdiv1"><em>کمر</em></div>
+        <div class="subdiv1">
+          <p>{{ field_kamar }}</p>
+        </div>
+
+        <div class="subdiv1"><em>گھیرا</em></div>
+        <div class="subdiv1">
+          <p>{{ field_gera }}</p>
+        </div>
+
+        <div class="subdiv1"><em>شلوار لمبائی</em></div>
+        <div class="subdiv1">
+          <p>{{ field_shalwar_l }}</p>
+        </div>
+
+        <div class="subdiv1"><em>پاینچا</em></div>
+        <div class="subdiv1">
+          <p>{{ field_painch }}</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="div10"></div>
+
+  </div>
+
+
+  <div class="invboxgrid">
+    <div class="div1">
+      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>
+    </div>
+    <div class="div2">
+      <h4>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</h4>
+    </div>
+    <div class="div3">
+      <em>ناپ نمبر:</em>
+      <b>{{ nid }}</b>
+      <hr />
+    </div>
+    <div class="div4">
+      <em>تاریخ آمد:</em>
+      <hr />
+    </div>
+    <div class="div5">
+      <em>کسٹمر نام: </em>
+      <b>{{ field_customer }}</b>
+      <hr />
+    </div>
+    <div class="div6">
+      <em>تاریخ واپسی:</em>
+      <hr />
+    </div>
+    <div class="div7">
+      <em>استاد کا نام:</em>
+      <hr />
+    </div>
+    <div class="div8">
+      <em>کٹر کا نام:</em>
+      <hr />
+    </div>
+    <div class="div9">
+      <div class="subgrid1">
+        <div class="subdiv1"><em>لمبائی</em></div>
+        <div class="subdiv1">
+          <p>{{ field_lambai }}</p>
+        </div>
+        <div class="subdiv1"><em>بازو</em></div>
+        <div class="subdiv1">
+          <p>{{ field_bazo_lambai }}</p>
+        </div>
+
+        <div class="subdiv1"><em>تیرہ</em></div>
+        <div class="subdiv1">
+          <p>{{ field_teera }}</p>
+        </div>
+
+        <div class="subdiv1"><em>کالر</em></div>
+        <div class="subdiv1">
+          <p>{{ field_kalar }}</p>
+        </div>
+
+        <div class="subdiv1"><em>چھاتی</em></div>
+        <div class="subdiv1">
+          <p>{{ field_chatee }}</p>
+        </div>
+
+        <div class="subdiv1"><em>کمر</em></div>
+        <div class="subdiv1">
+          <p>{{ field_kamar }}</p>
+        </div>
+
+        <div class="subdiv1"><em>گھیرا</em></div>
+        <div class="subdiv1">
+          <p>{{ field_gera }}</p>
+        </div>
+
+        <div class="subdiv1"><em>شلوار لمبائی</em></div>
+        <div class="subdiv1">
+          <p>{{ field_shalwar_l }}</p>
+        </div>
+
+        <div class="subdiv1"><em>پاینچا</em></div>
+        <div class="subdiv1">
+          <p>{{ field_painch }}</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="div10">
+      {{ field_bain }} ==
+      {{ field_bazo_design }} ==
+      {{ field_buttons_on_patee }} ==
+      {{ field_daman_desin }} ==
+      {{ field_front_po }} ==
+      {{ field_kaf_c }} ==
+      {{ field_kaf_design }} ==
+      {{ field_kaf_ }} ==
+      {{ field_kalar_desin }} ==
+      {{ field_kalar_lambai }} ==
+      {{ field_mora }} ==
+      {{ field_patee_ch }} ==
+      {{ field_patee_design }} ==
+      {{ field_patee_la }} ==
+      {{ field_salayee_type }} ==
+      {{ field_s }} ==
+      {{ field_shalwar_pocket }} ==
+      {{ field_side_poc }} ==
+      {{ field_tar_type }} ==
+      <h6>استاد کا نام</h6>
+    </div>
+    <div class="div11">
+      <h6>کٹر کا نام</h6>
+    </div>
+  </div>
+
+  <div class="measerModal">
+    <a class="measerBtn" href="#popup1">Let me Pop up</a>
+  </div>
+
+  <div id="popup1" class="measerOverlay">
+    <div class="measerPopup">
+      <h2>Here i am</h2>
+      <a class="measurClose" href="#">&times;</a>
+      <div class="measurContent">
+        <div class="raseed">
+
+          <b class="customer">{{ field_customer }}</b>
+          <b class="serial">{{ nid }}</b>
+          <p class="bain">{{ field_bain }}</p>
+          <p class="bazoDesign">{{ field_bazo_design }}</p>
+          <p class="bazoLambai">{{ field_bazo_lambai }}</p>
+          <p class="buttonsNo">{{ field_buttons_on_patee }} </p>
+          <p class="chatee">{{ field_chatee }} </p>
+          <p class="">{{ field_daman_desin }} </p>
+
+          <p class="frontPocket">{{ field_front_po }}
+          </p>
+          <p class="gera">{{ field_gera }}
+          </p>
+          <p class="kafC">{{ field_kaf_c }}
+          </p>
+          <p class="kafDesign">{{ field_kaf_design }}
+          </p>
+          <p class="kaf">{{ field_kaf_ }}
+          </p>
+          <p class="kalar">{{ field_kalar }}
+          </p>
+          <p class="kalarDesign">{{ field_kalar_desin }}
+          </p>
+          <p class="kalarLambai">{{ field_kalar_lambai }}
+          </p>
+          <p class="kamr">{{ field_kamar }}
+          </p>
+          <p class="lambai">{{ field_lambai }}
+          </p>
+          <p class="mora">{{ field_mora }}
+          </p>
+          <p class="paincha">{{ field_painch }}
+          </p>
+          <p class="pateeChorai">{{ field_patee_ch }}
+          </p>
+          <p class="pateeDesign">{{ field_patee_design }}
+          </p>
+          <p class="pateeLambai">{{ field_patee_la }}
+          </p>
+          <p class="salyeeType">{{ field_salayee_type }}
+          </p>
+          <p class="shalwarGera">{{ field_s }}
+          </p>
+          <p class="shalwarLambai">{{ field_shalwar_l }}
+          </p>
+          <div class="shalwarPocket">{{ field_shalwar_pocket }}
+          </div>
+          <p class="sidePocket">{{ field_side_poc }}
+          </p>
+          <p class="tarType">{{ field_tar_type }}
+          </p>
+          <p class="teera">{{ field_teera }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

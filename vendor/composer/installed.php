@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8bb261fdac3b5ceb7189eb3051bb3745497e3fa7',
+        'reference' => 'f4495dff9e8fd7125679b644044b3594692e0824',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -670,6 +670,17 @@
             'reference' => '2.0.0',
             'dev_requirement' => false,
         ),
+        'drupal/datatables_filter' => array(
+            'pretty_version' => 'dev-2.0.x',
+            'version' => 'dev-2.0.x',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/datatables_filter',
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'reference' => '082bbe14f4eec1bac1b9226d4d5ada1b921b068c',
+            'dev_requirement' => false,
+        ),
         'drupal/datetime' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -819,6 +830,15 @@
             'replaced' => array(
                 0 => '9.2.7',
             ),
+        ),
+        'drupal/libraries' => array(
+            'pretty_version' => '3.0.0-beta1',
+            'version' => '3.0.0.0-beta1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/libraries',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-beta1',
+            'dev_requirement' => false,
         ),
         'drupal/link' => array(
             'dev_requirement' => false,
@@ -976,7 +996,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8bb261fdac3b5ceb7189eb3051bb3745497e3fa7',
+            'reference' => 'f4495dff9e8fd7125679b644044b3594692e0824',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
