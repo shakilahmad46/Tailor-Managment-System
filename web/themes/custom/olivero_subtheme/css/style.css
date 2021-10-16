@@ -15,6 +15,7 @@
   padding: 4mm;
   direction: rtl;
   position: relative;
+  overflow: hidden;
 }
 
 .flexrecipt em, .flexrecipt p, .flexrecipt b {
