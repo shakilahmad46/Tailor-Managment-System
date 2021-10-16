@@ -121,6 +121,12 @@ em,p{
   }
 }
 
+.layout--content-medium, .layout--pass--content-medium > * {
+@media (min-width: 62.5rem){
+
+  grid-column: 1 / 14;
+}
+}
 
 // .invboxgrid {
 //   width: 148mm;

@@ -136,4 +136,12 @@
 .flexrecipt .fitem:nth-child(4) .symbols div:nth-child(13) {
   width: 99%;
 }
+
+@media (min-width: 62.5rem) {
+  .layout--content-medium, .layout--pass--content-medium > * {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 13;
+    grid-column: 1 / 14;
+  }
+}
 /*# sourceMappingURL=style.css.map */
