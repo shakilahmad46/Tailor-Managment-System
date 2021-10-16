@@ -1,0 +1,30 @@
+uuid: 92e81965-4620-4c41-82c2-3e53866457d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.measurement
+  module:
+    - system
+    - views
+  theme:
+    - olivero_subtheme
+id: olivero_subtheme_views_block__measurement_block_1
+theme: olivero_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:measurement-block_1'
+settings:
+  id: 'views_block:measurement-block_1'
+  label: Measurements
+  provider: views
+  label_display: visible
+  views_label: Measurements
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/customer/*'
+    negate: false

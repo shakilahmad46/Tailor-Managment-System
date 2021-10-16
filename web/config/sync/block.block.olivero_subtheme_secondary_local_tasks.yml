@@ -1,0 +1,22 @@
+uuid: f7a37ac3-3ef9-4ed5-b2ff-491b60c81ed8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - olivero_subtheme
+_core:
+  default_config_hash: V7GM1m6Qh500cQE7LWZV8lRuwLqXdjR0S2kSk8pEv6g
+id: olivero_subtheme_secondary_local_tasks
+theme: olivero_subtheme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

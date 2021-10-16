@@ -106,6 +106,423 @@ display:
             next: ››
       style:
         type: datatables
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          caption: ''
+          summary: ''
+          description: ''
+          columns:
+            nid: nid
+            field_measurement: field_measurement
+            field_customer: field_customer
+            field_quantity: field_quantity
+            created: created
+            field_delivery_date: field_delivery_date
+            field_order_s: field_order_s
+            field_payment: field_payment
+            field_bazo_lambai: field_bazo_lambai
+            field_lambai: field_lambai
+            field_patee_la: field_patee_la
+            field_bain: field_bain
+            field_bazo_design: field_bazo_design
+            field_bazo_lambai_1: field_bazo_lambai_1
+            field_buttons_on_patee: field_buttons_on_patee
+            field_chatee: field_chatee
+            field_daman_desin: field_daman_desin
+            field_extra_information: field_extra_information
+            field_front_po: field_front_po
+            field_gera: field_gera
+            field_kaf_c: field_kaf_c
+            field_kaf_design: field_kaf_design
+            field_kaf_: field_kaf_
+            field_kalar: field_kalar
+            field_kalar_desin: field_kalar_desin
+            field_kalar_lambai: field_kalar_lambai
+            field_kamar: field_kamar
+            field_lambai_1: field_lambai_1
+            field_mora: field_mora
+            field_painch: field_painch
+            field_patee_ch: field_patee_ch
+            field_patee_design: field_patee_design
+            field_patee_la_1: field_patee_la_1
+            field_salayee_type: field_salayee_type
+            field_s: field_s
+            field_shalwar_l: field_shalwar_l
+            field_shalwar_pocket: field_shalwar_pocket
+            field_side_poc: field_side_poc
+            field_tar_type: field_tar_type
+            field_teera: field_teera
+            field_customer_1: field_customer_1
+            field_ustad: field_ustad
+            nothing: nothing
+            nothing_1: nothing_1
+          info:
+            nid:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_measurement:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_customer:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_quantity:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            created:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_delivery_date:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_order_s:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_payment:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_bazo_lambai:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_lambai:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_patee_la:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_bain:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_bazo_design:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_bazo_lambai_1:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_buttons_on_patee:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_chatee:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_daman_desin:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_extra_information:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_front_po:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_gera:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kaf_c:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kaf_design:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kaf_:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kalar:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kalar_desin:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kalar_lambai:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_kamar:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_lambai_1:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_mora:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_painch:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_patee_ch:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_patee_design:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_patee_la_1:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_salayee_type:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_s:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_shalwar_l:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_shalwar_pocket:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_side_poc:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_tar_type:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_teera:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_customer_1:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            field_ustad:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            nothing:
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+            nothing_1:
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
+          default: '-1'
+          empty_table: 0
+          elements:
+            search_box: 0
+            table_info: 1
+            save_state: 0
+            table_tools: 0
+          layout:
+            autowidth: 0
+            themeroller: 0
+            sdom: ''
+          pages:
+            pagination_style: '0'
+            length_change: 0
+            display_length: '10'
+          hidden_columns:
+            nid: '0'
+            field_measurement: '0'
+            field_customer: '0'
+            field_quantity: '0'
+            created: '0'
+            field_delivery_date: '0'
+            field_order_s: '0'
+            field_payment: '0'
+            field_bazo_lambai: '0'
+            field_lambai: '0'
+            field_patee_la: '0'
+            field_bain: '0'
+            field_bazo_design: '0'
+            field_bazo_lambai_1: '0'
+            field_buttons_on_patee: '0'
+            field_chatee: '0'
+            field_daman_desin: '0'
+            field_extra_information: '0'
+            field_front_po: '0'
+            field_gera: '0'
+            field_kaf_c: '0'
+            field_kaf_design: '0'
+            field_kaf_: '0'
+            field_kalar: '0'
+            field_kalar_desin: '0'
+            field_kalar_lambai: '0'
+            field_kamar: '0'
+            field_lambai_1: '0'
+            field_mora: '0'
+            field_painch: '0'
+            field_patee_ch: '0'
+            field_patee_design: '0'
+            field_patee_la_1: '0'
+            field_salayee_type: '0'
+            field_s: '0'
+            field_shalwar_l: '0'
+            field_shalwar_pocket: '0'
+            field_side_poc: '0'
+            field_tar_type: '0'
+            field_teera: '0'
+            field_customer_1: '0'
+            field_ustad: '0'
+            nothing: '0'
+            nothing_1: '0'
       row:
         type: fields
       fields:
@@ -542,6 +959,8 @@ display:
         arguments: false
         relationships: false
         fields: false
+        style: false
+        row: false
       relationships:
         field_measurement:
           id: field_measurement
@@ -3281,7 +3700,7 @@ display:
           group_type: group
           admin_label: ''
           label: 'Open '
-          exclude: false
+          exclude: true
           alter:
             alter_text: true
             text: "<div class=\"measerModal\">\r\n      <a class=\"measerBtn\" href=\"#popup{{ nid }}\">Open</a>\r\n    </div>\r\n\r\n    <div id=\"popup{{ nid }}\" class=\"measerOverlay\">\r\n      <div class=\"measerPopup\">\r\n        <a href=\"#\" class=\"button--small printBtn\">Print </>\r\n        <a class=\"measurClose\" href=\"#\">&times;</a>\r\n        <div class=\"measurContent\">\r\n\r\n<div class=\"invboxgrid\" id=\"raseedPrint\">\r\n      <div class=\"div1\"><h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1></div>\r\n      <div class=\"div2\">\r\n        <h4>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</h4>\r\n      </div>\r\n      <div class=\"div3\">\r\n        <em>ناپ نمبر:</em>\r\n        <b>{{ nid }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div4\">\r\n        <em>تاریخ آمد:</em>\r\n<b>{{ created }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div5\">\r\n        <em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div6\">\r\n        <em>تاریخ واپسی:</em>\r\n <b>{{ field_delivery_date }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div7\">\r\n        <em>استاد کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div8\">\r\n        <em>کٹر کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n<div class=\"div9\">\r\n        <div class=\"subgrid1\">\r\n          <div class=\"subdiv1\"><em>لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_lambai }}</p></div>\r\n          <div class=\"subdiv1\"><em>بازو</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_bazo_lambai }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>تیرہ</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_teera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کالر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kalar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>چھاتی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_chatee }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کمر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kamar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>گھیرا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_gera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>شلوار لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_shalwar_l }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>پاینچا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_painch }}</p></div>\r\n\r\n        </div>\r\n      </div>\r\n      \r\n    </div>\r\n         \r\n\r\n        </div>\r\n      </div>\r\n    </div>"
@@ -3333,7 +3752,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: Print
+            text: 'print '
             make_link: true
             path: '/order/{{ nid }}'
             absolute: false
@@ -3371,6 +3790,372 @@ display:
           empty_zero: false
           hide_alter_empty: false
           plugin_id: custom
+      style:
+        type: table
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          override: true
+          sticky: false
+          caption: ''
+          summary: ''
+          description: ''
+          columns:
+            nid: nid
+            field_measurement: field_measurement
+            field_customer: field_customer
+            field_quantity: field_quantity
+            created: created
+            field_delivery_date: field_delivery_date
+            field_order_s: field_order_s
+            field_payment: field_payment
+            field_bazo_lambai: field_bazo_lambai
+            field_lambai: field_lambai
+            field_patee_la: field_patee_la
+            field_bain: field_bain
+            field_bazo_design: field_bazo_design
+            field_bazo_lambai_1: field_bazo_lambai_1
+            field_buttons_on_patee: field_buttons_on_patee
+            field_chatee: field_chatee
+            field_daman_desin: field_daman_desin
+            field_extra_information: field_extra_information
+            field_front_po: field_front_po
+            field_gera: field_gera
+            field_kaf_c: field_kaf_c
+            field_kaf_design: field_kaf_design
+            field_kaf_: field_kaf_
+            field_kalar: field_kalar
+            field_kalar_desin: field_kalar_desin
+            field_kalar_lambai: field_kalar_lambai
+            field_kamar: field_kamar
+            field_lambai_1: field_lambai_1
+            field_mora: field_mora
+            field_painch: field_painch
+            field_patee_ch: field_patee_ch
+            field_patee_design: field_patee_design
+            field_patee_la_1: field_patee_la_1
+            field_salayee_type: field_salayee_type
+            field_s: field_s
+            field_shalwar_l: field_shalwar_l
+            field_shalwar_pocket: field_shalwar_pocket
+            field_side_poc: field_side_poc
+            field_tar_type: field_tar_type
+            field_teera: field_teera
+            field_customer_1: field_customer_1
+            field_ustad: field_ustad
+            nothing: nothing
+            nothing_1: nothing_1
+          info:
+            nid:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_measurement:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_customer:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_quantity:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            created:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_delivery_date:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_order_s:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_payment:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_bazo_lambai:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_lambai:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_patee_la:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_bain:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_bazo_design:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_bazo_lambai_1:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_buttons_on_patee:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_chatee:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_daman_desin:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_extra_information:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_front_po:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_gera:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kaf_c:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kaf_design:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kaf_:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kalar:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kalar_desin:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kalar_lambai:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_kamar:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_lambai_1:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_mora:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_painch:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_patee_ch:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_patee_design:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_patee_la_1:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_salayee_type:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_s:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_shalwar_l:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_shalwar_pocket:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_side_poc:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_tar_type:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_teera:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_customer_1:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            field_ustad:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            nothing:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            nothing_1:
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+          default: '-1'
+          empty_table: false
+      row:
+        type: fields
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -6703,7 +7488,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "  \r\n<div class=\"invboxgrid\" id=\"raseedPrint\">\r\n      <div class=\"div1\"><h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1></div>\r\n      <div class=\"div2\">\r\n        <h4>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</h4>\r\n      </div>\r\n      <div class=\"div3\">\r\n        <em>ناپ نمبر:</em>\r\n        <b>{{ nid }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div4\">\r\n        <em>تاریخ آمد:</em>\r\n<b>{{ created }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div5\">\r\n        <em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div6\">\r\n        <em>تاریخ واپسی:</em>\r\n <b>{{ field_delivery_date }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div7\">\r\n        <em>استاد کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div8\">\r\n        <em>کٹر کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n<div class=\"div9\">\r\n        <div class=\"subgrid1\">\r\n          <div class=\"subdiv1\"><em>لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_lambai }}</p></div>\r\n          <div class=\"subdiv1\"><em>بازو</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_bazo_lambai }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>تیرہ</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_teera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کالر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kalar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>چھاتی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_chatee }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کمر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kamar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>گھیرا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_gera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>شلوار لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_shalwar_l }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>پاینچا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_painch }}</p></div>\r\n\r\n        </div>\r\n      </div>\r\n      \r\n    </div>\r\n         "
+            text: "  <div class=\"flexrecipt\">\r\n    <div class=\"fitem\">\r\n      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div> <em>ناپ نمبر:</em>\r\n        <b>{{ nid }}</b></div>\r\n      <div><em>تاریخ آمد:</em>\r\n        <b>{{ created }}</b></div>\r\n      <div><em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b></div>\r\n      <div><em>تاریخ واپسی:</em>\r\n        <b>{{ field_delivery_date }}</b></div>\r\n      <div><em>استاد کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n      <div> <em>کٹر کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div class=\"nafTable\">\r\n        <em>لمبائی</em>\r\n        <p>{{ field_lambai }}</p>\r\n        <em>\_بازو</em>\r\n        <p> {{ field_bazo_lambai}} </p>\r\n        <em>تیرہ</em>\r\n        <p> {{ field_teera }} </p>\r\n        <em>کالر</em>\r\n        <p> {{ field_kalar }} </p>\r\n        <em>چھاتی</em>\r\n        <p> {{ field_chatee }} </p>\r\n        <em>کمر</em>\r\n        <p> {{ field_kamar }} </p>\r\n        <em>گھیرا</em>\r\n        <p> {{ field_gera }} </p>\r\n        <em>شلوار لمبائی</em>\r\n        <p> {{ field_shalwar_l}} </p>\r\n        <em> پاینچا</em>\r\n        <p> {{ field_painch }} </p>\r\n        <em>موڑا</em>\r\n        <p> {{ field_mora }} </p>\r\n        <em>سلائی قسم</em>\r\n        <p> {{ field_salayee_type }} </p>\r\n\r\n      </div>\r\n<div class=\"symbols\">\r\n        <div><b>\_بین</b>\r\n          <p>{{ field_bain }} </p>\r\n        </div>\r\n        <div><b>\_کف لمبائی</b>\r\n          <p>{{field_kaf_ }} </p>\r\n        </div>\r\n        <div><b>\_کف چوڑائی</b>\r\n          <p>{{field_kaf_c }} </p>\r\n        </div>\r\n        <div><b>\_کف ڈیزاین</b>\r\n          <p>{{field_kaf_design }} </p>\r\n        </div>\r\n        <div><b>\_سائیڈ پاکٹ</b>\r\n          <p>{{field_side_poc }} </p>\r\n        </div>\r\n        <div><b>\_شلوار پاکٹ</b>\r\n          <p>{{field_shalwar_pocket }} </p>\r\n        </div>\r\n        <div><b>\_دامن ڈیزاین</b>\r\n          <p>{{field_daman_desin }} </p>\r\n        </div>\r\n        <div><b>\_پٹی چوڑائی</b>\r\n          <p>{{field_patee_ch }} </p>\r\n        </div>\r\n        <div><b>\_پٹی لمبائی</b>\r\n          <p>{{field_patee_la }} </p>\r\n        </div>\r\n        <div><b>\_پٹی ڈیزائن</b>\r\n          <p>{{field_patee_design }} </p>\r\n        </div>\r\n        <div><b>\_بٹن تعداد</b>\r\n          <p>{{field_buttons_on_patee }} </p>\r\n        </div>\r\n<div><b>\_بٹن تعداد</b>\r\n          <p>{{field_buttons_on_patee }} </p>\r\n        </div>\r\n<div><b>\_اضافی معلومات</b>\r\n          <p>{{ field_extra_information }}</p>\r\n        </div>\r\n\r\n\r\n\r\n\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n  </div>"
             make_link: false
             path: ''
             absolute: false
@@ -6742,6 +7527,2895 @@ display:
           hide_alter_empty: false
           plugin_id: custom
       path: order/%
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+      row:
+        type: fields
+        options: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_bain'
+        - 'config:field.storage.node.field_bazo_design'
+        - 'config:field.storage.node.field_bazo_lambai'
+        - 'config:field.storage.node.field_buttons_on_patee'
+        - 'config:field.storage.node.field_chatee'
+        - 'config:field.storage.node.field_customer'
+        - 'config:field.storage.node.field_daman_desin'
+        - 'config:field.storage.node.field_delivery_date'
+        - 'config:field.storage.node.field_extra_information'
+        - 'config:field.storage.node.field_front_po'
+        - 'config:field.storage.node.field_gera'
+        - 'config:field.storage.node.field_kaf_'
+        - 'config:field.storage.node.field_kaf_c'
+        - 'config:field.storage.node.field_kaf_design'
+        - 'config:field.storage.node.field_kalar'
+        - 'config:field.storage.node.field_kalar_desin'
+        - 'config:field.storage.node.field_kalar_lambai'
+        - 'config:field.storage.node.field_kamar'
+        - 'config:field.storage.node.field_lambai'
+        - 'config:field.storage.node.field_measurement'
+        - 'config:field.storage.node.field_mora'
+        - 'config:field.storage.node.field_order_s'
+        - 'config:field.storage.node.field_painch'
+        - 'config:field.storage.node.field_patee_ch'
+        - 'config:field.storage.node.field_patee_design'
+        - 'config:field.storage.node.field_patee_la'
+        - 'config:field.storage.node.field_payment'
+        - 'config:field.storage.node.field_quantity'
+        - 'config:field.storage.node.field_s'
+        - 'config:field.storage.node.field_salayee_type'
+        - 'config:field.storage.node.field_shalwar_l'
+        - 'config:field.storage.node.field_shalwar_pocket'
+        - 'config:field.storage.node.field_side_poc'
+        - 'config:field.storage.node.field_tar_type'
+        - 'config:field.storage.node.field_teera'
+        - 'config:field.storage.node.field_ustad'
+  page_3:
+    display_plugin: page
+    id: page_3
+    display_title: 'Order Print'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      arguments:
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          default_action: default
+          exception:
+            value: all
+            title_enable: false
+            title: All
+          title_enable: false
+          title: ''
+          default_argument_type: raw
+          default_argument_options:
+            index: 1
+            use_alias: false
+          default_argument_skip_url: false
+          summary_options:
+            base_path: ''
+            count: true
+            items_per_page: 25
+            override: false
+          summary:
+            sort_order: asc
+            number_of_records: 0
+            format: default_summary
+          specify_validation: false
+          validate:
+            type: none
+            fail: 'not found'
+          validate_options: {  }
+          break_phrase: false
+          not: false
+          entity_type: node
+          entity_field: nid
+          plugin_id: node_nid
+      defaults:
+        arguments: false
+        relationships: false
+        fields: false
+        style: false
+        row: false
+      relationships:
+        field_measurement:
+          id: field_measurement
+          table: node__field_measurement
+          field: field_measurement
+          relationship: none
+          group_type: group
+          admin_label: 'field_measurement: Content'
+          required: false
+          plugin_id: standard
+        field_customer:
+          id: field_customer
+          table: node__field_customer
+          field: field_customer
+          relationship: none
+          group_type: group
+          admin_label: 'field_customer: Content'
+          required: false
+          plugin_id: standard
+        reverse__node__field_customer:
+          id: reverse__node__field_customer
+          table: node_field_data
+          field: reverse__node__field_customer
+          relationship: none
+          group_type: group
+          admin_label: field_customer
+          required: false
+          entity_type: node
+          plugin_id: entity_reverse
+      fields:
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Order ID'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+        field_measurement:
+          id: field_measurement
+          table: node__field_measurement
+          field: field_measurement
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: MID
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_entity_id
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_customer:
+          id: field_customer
+          table: node__field_customer
+          field: field_customer
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Customer
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_quantity:
+          id: field_quantity
+          table: node__field_quantity
+          field: field_quantity
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Quantity
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Order Date'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: timestamp
+          settings:
+            date_format: html_date
+            custom_date_format: ''
+            timezone: ''
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: created
+          plugin_id: field
+        field_delivery_date:
+          id: field_delivery_date
+          table: node__field_delivery_date
+          field: field_delivery_date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Delivery Date'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: datetime_default
+          settings:
+            timezone_override: Asia/Karachi
+            format_type: html_date
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_order_s:
+          id: field_order_s
+          table: node__field_order_s
+          field: field_order_s
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Order status'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_payment:
+          id: field_payment
+          table: node__field_payment
+          field: field_payment
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: 'Payment Status'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_bazo_lambai:
+          id: field_bazo_lambai
+          table: node__field_bazo_lambai
+          field: field_bazo_lambai
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Bazo Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_lambai:
+          id: field_lambai
+          table: node__field_lambai
+          field: field_lambai
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Lambai
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_patee_la:
+          id: field_patee_la
+          table: node__field_patee_la
+          field: field_patee_la
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Patee Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_bain:
+          id: field_bain
+          table: node__field_bain
+          field: field_bain
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Bain
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_bazo_design:
+          id: field_bazo_design
+          table: node__field_bazo_design
+          field: field_bazo_design
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Bazo Design'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_bazo_lambai_1:
+          id: field_bazo_lambai_1
+          table: node__field_bazo_lambai
+          field: field_bazo_lambai
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Bazo Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_buttons_on_patee:
+          id: field_buttons_on_patee
+          table: node__field_buttons_on_patee
+          field: field_buttons_on_patee
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Buttons on patee'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_chatee:
+          id: field_chatee
+          table: node__field_chatee
+          field: field_chatee
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Chatee
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_daman_desin:
+          id: field_daman_desin
+          table: node__field_daman_desin
+          field: field_daman_desin
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Daman Design'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_extra_information:
+          id: field_extra_information
+          table: node__field_extra_information
+          field: field_extra_information
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Extra Information'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: basic_string
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_front_po:
+          id: field_front_po
+          table: node__field_front_po
+          field: field_front_po
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Front Pocket'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_gera:
+          id: field_gera
+          table: node__field_gera
+          field: field_gera
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Gera
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kaf_c:
+          id: field_kaf_c
+          table: node__field_kaf_c
+          field: field_kaf_c
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Kaf Chorai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kaf_design:
+          id: field_kaf_design
+          table: node__field_kaf_design
+          field: field_kaf_design
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Kaf Design'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kaf_:
+          id: field_kaf_
+          table: node__field_kaf_
+          field: field_kaf_
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Kaf Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kalar:
+          id: field_kalar
+          table: node__field_kalar
+          field: field_kalar
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Kalar Chorai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kalar_desin:
+          id: field_kalar_desin
+          table: node__field_kalar_desin
+          field: field_kalar_desin
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Kalar Design'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kalar_lambai:
+          id: field_kalar_lambai
+          table: node__field_kalar_lambai
+          field: field_kalar_lambai
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'kalar Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kamar:
+          id: field_kamar
+          table: node__field_kamar
+          field: field_kamar
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Kamar
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_lambai_1:
+          id: field_lambai_1
+          table: node__field_lambai
+          field: field_lambai
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Lambai
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_mora:
+          id: field_mora
+          table: node__field_mora
+          field: field_mora
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Mora
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_painch:
+          id: field_painch
+          table: node__field_painch
+          field: field_painch
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Painch
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_patee_ch:
+          id: field_patee_ch
+          table: node__field_patee_ch
+          field: field_patee_ch
+          relationship: field_customer
+          group_type: group
+          admin_label: ''
+          label: 'Patee Chorai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_patee_design:
+          id: field_patee_design
+          table: node__field_patee_design
+          field: field_patee_design
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Patee Design'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_patee_la_1:
+          id: field_patee_la_1
+          table: node__field_patee_la
+          field: field_patee_la
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Patee Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_salayee_type:
+          id: field_salayee_type
+          table: node__field_salayee_type
+          field: field_salayee_type
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Salayee Type'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_s:
+          id: field_s
+          table: node__field_s
+          field: field_s
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Shalwar gera'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_shalwar_l:
+          id: field_shalwar_l
+          table: node__field_shalwar_l
+          field: field_shalwar_l
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Shalwar Lambai'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_shalwar_pocket:
+          id: field_shalwar_pocket
+          table: node__field_shalwar_pocket
+          field: field_shalwar_pocket
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Shalwar Pocket'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_side_poc:
+          id: field_side_poc
+          table: node__field_side_poc
+          field: field_side_poc
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Side Pocket'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_tar_type:
+          id: field_tar_type
+          table: node__field_tar_type
+          field: field_tar_type
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: 'Tar Type'
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_teera:
+          id: field_teera
+          table: node__field_teera
+          field: field_teera
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: Teera
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+            decimal_separator: .
+            scale: 2
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_customer_1:
+          id: field_customer_1
+          table: node__field_customer
+          field: field_customer
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Cutter
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_ustad:
+          id: field_ustad
+          table: node__field_ustad
+          field: field_ustad
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: Ustad
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: false
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "  \r\n<div class=\"invboxgrid\" id=\"raseedPrint\">\r\n      <div class=\"div1\"><h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1></div>\r\n      <div class=\"div2\">\r\n        <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>\r\n      </div>\r\n      <div class=\"div3\">\r\n        <em>ناپ نمبر:</em>\r\n        <b>{{ nid }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div4\">\r\n        <em>تاریخ آمد:</em>\r\n<b>{{ created }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div5\">\r\n        <em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div6\">\r\n        <em>تاریخ واپسی:</em>\r\n <b>{{ field_delivery_date }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div7\">\r\n        <em>استاد کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n      <div class=\"div8\">\r\n        <em>کٹر کا نام:</em>\r\n<b>{{ field_customer_1 }}</b>\r\n        <hr />\r\n      </div>\r\n<div class=\"div9\">\r\n        <div class=\"subgrid1\">\r\n          <div class=\"subdiv1\"><em>لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_lambai }}</p></div>\r\n          <div class=\"subdiv1\"><em>بازو</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_bazo_lambai }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>تیرہ</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_teera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کالر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kalar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>چھاتی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_chatee }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>کمر</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_kamar }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>گھیرا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_gera }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>شلوار لمبائی</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_shalwar_l }}</p></div>\r\n\r\n          <div class=\"subdiv1\"><em>پاینچا</em></div>\r\n          <div class=\"subdiv1\"><p>{{ field_painch }}</p></div>\r\n\r\n        </div>\r\n      </div>\r\n      \r\n    </div>\r\n         "
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+      path: order1/%
       style:
         type: default
         options:

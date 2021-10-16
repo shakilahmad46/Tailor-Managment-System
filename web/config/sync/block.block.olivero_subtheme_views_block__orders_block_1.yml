@@ -1,0 +1,30 @@
+uuid: 753ff9f8-fd68-45c6-8591-14c99717f4a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.orders
+  module:
+    - system
+    - views
+  theme:
+    - olivero_subtheme
+id: olivero_subtheme_views_block__orders_block_1
+theme: olivero_subtheme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:orders-block_1'
+settings:
+  id: 'views_block:orders-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/customer/*'
+    negate: false
