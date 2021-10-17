@@ -1,0 +1,22 @@
+uuid: 184e03f6-1872-4e5e-aefa-a65587b82646
+langcode: en
+status: true
+dependencies:
+  theme:
+    - uikit_admin
+_core:
+  default_config_hash: jOJtjuugVPThednGzw5gQ-d6na4PhdPDjuOotKcIcMs
+id: uikit_admin_tabs__offcanvas
+theme: uikit_admin
+region: offcanvas
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

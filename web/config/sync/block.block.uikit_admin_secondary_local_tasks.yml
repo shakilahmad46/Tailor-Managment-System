@@ -1,0 +1,22 @@
+uuid: ad585048-e201-400b-9c59-ffa446d59457
+langcode: en
+status: true
+dependencies:
+  theme:
+    - uikit_admin
+_core:
+  default_config_hash: _JX62av5UsCtQsvfimZEQyrUq1ip_05eUKTYLU4PC7c
+id: uikit_admin_secondary_local_tasks
+theme: uikit_admin
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

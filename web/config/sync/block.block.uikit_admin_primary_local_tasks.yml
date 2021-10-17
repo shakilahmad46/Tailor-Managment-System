@@ -1,0 +1,22 @@
+uuid: c7b4e713-f34f-4e8e-b017-163ffb1bab4d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - uikit_admin
+_core:
+  default_config_hash: fnT9gAerUz4hFu7H4dNpVvZzs5Gg45Cegbdt-cRu-oI
+id: uikit_admin_primary_local_tasks
+theme: uikit_admin
+region: navbar_right
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }
