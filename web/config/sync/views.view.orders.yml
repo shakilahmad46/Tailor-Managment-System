@@ -93,10 +93,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 10
+          items_per_page: 50
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -105,9 +108,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: datatables
         options:
@@ -119,49 +119,12 @@ display:
           description: ''
           columns:
             nid: nid
-            field_measurement: field_measurement
             field_customer: field_customer
-            field_quantity: field_quantity
             created: created
             field_delivery_date: field_delivery_date
+            field_quantity: field_quantity
             field_order_s: field_order_s
             field_payment: field_payment
-            field_bazo_lambai: field_bazo_lambai
-            field_lambai: field_lambai
-            field_patee_la: field_patee_la
-            field_bain: field_bain
-            field_bazo_design: field_bazo_design
-            field_bazo_lambai_1: field_bazo_lambai_1
-            field_buttons_on_patee: field_buttons_on_patee
-            field_chatee: field_chatee
-            field_daman_desin: field_daman_desin
-            field_extra_information: field_extra_information
-            field_front_po: field_front_po
-            field_gera: field_gera
-            field_kaf_c: field_kaf_c
-            field_kaf_design: field_kaf_design
-            field_kaf_: field_kaf_
-            field_kalar: field_kalar
-            field_kalar_desin: field_kalar_desin
-            field_kalar_lambai: field_kalar_lambai
-            field_kamar: field_kamar
-            field_lambai_1: field_lambai_1
-            field_mora: field_mora
-            field_painch: field_painch
-            field_patee_ch: field_patee_ch
-            field_patee_design: field_patee_design
-            field_patee_la_1: field_patee_la_1
-            field_salayee_type: field_salayee_type
-            field_s: field_s
-            field_shalwar_l: field_shalwar_l
-            field_shalwar_pocket: field_shalwar_pocket
-            field_side_poc: field_side_poc
-            field_tar_type: field_tar_type
-            field_teera: field_teera
-            field_customer_1: field_customer_1
-            field_ustad: field_ustad
-            nothing: nothing
-            nothing_1: nothing_1
           info:
             nid:
               sortable: 0
@@ -170,21 +133,7 @@ display:
               separator: ''
               empty_column: 0
               responsive: ''
-            field_measurement:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
             field_customer:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_quantity:
               sortable: 0
               default_sort_order: asc
               align: ''
@@ -205,6 +154,13 @@ display:
               separator: ''
               empty_column: 0
               responsive: ''
+            field_quantity:
+              sortable: 0
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: 0
+              responsive: ''
             field_order_s:
               sortable: 0
               default_sort_order: asc
@@ -219,314 +175,29 @@ display:
               separator: ''
               empty_column: 0
               responsive: ''
-            field_bazo_lambai:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_lambai:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_patee_la:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_bain:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_bazo_design:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_bazo_lambai_1:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_buttons_on_patee:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_chatee:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_daman_desin:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_extra_information:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_front_po:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_gera:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kaf_c:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kaf_design:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kaf_:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kalar:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kalar_desin:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kalar_lambai:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_kamar:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_lambai_1:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_mora:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_painch:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_patee_ch:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_patee_design:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_patee_la_1:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_salayee_type:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_s:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_shalwar_l:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_shalwar_pocket:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_side_poc:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_tar_type:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_teera:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_customer_1:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_ustad:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            nothing:
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            nothing_1:
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
           default: '-1'
           empty_table: 0
           elements:
-            search_box: 0
+            search_box: 1
             table_info: 1
             save_state: 0
-            table_tools: 0
+            table_tools: 1
           layout:
-            autowidth: 0
+            autowidth: 1
             themeroller: 0
             sdom: ''
           pages:
             pagination_style: '0'
             length_change: 0
-            display_length: '10'
+            display_length: '50'
           hidden_columns:
             nid: '0'
-            field_measurement: '0'
             field_customer: '0'
-            field_quantity: '0'
             created: '0'
             field_delivery_date: '0'
+            field_quantity: '0'
             field_order_s: '0'
             field_payment: '0'
-            field_bazo_lambai: '0'
-            field_lambai: '0'
-            field_patee_la: '0'
-            field_bain: '0'
-            field_bazo_design: '0'
-            field_bazo_lambai_1: '0'
-            field_buttons_on_patee: '0'
-            field_chatee: '0'
-            field_daman_desin: '0'
-            field_extra_information: '0'
-            field_front_po: '0'
-            field_gera: '0'
-            field_kaf_c: '0'
-            field_kaf_design: '0'
-            field_kaf_: '0'
-            field_kalar: '0'
-            field_kalar_desin: '0'
-            field_kalar_lambai: '0'
-            field_kamar: '0'
-            field_lambai_1: '0'
-            field_mora: '0'
-            field_painch: '0'
-            field_patee_ch: '0'
-            field_patee_design: '0'
-            field_patee_la_1: '0'
-            field_salayee_type: '0'
-            field_s: '0'
-            field_shalwar_l: '0'
-            field_shalwar_pocket: '0'
-            field_side_poc: '0'
-            field_tar_type: '0'
-            field_teera: '0'
-            field_customer_1: '0'
-            field_ustad: '0'
-            nothing: '0'
-            nothing_1: '0'
       row:
         type: fields
       fields:
@@ -902,6 +573,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -4232,6 +3904,7 @@ display:
       defaults:
         relationships: false
         fields: false
+        pager: false
       fields:
         nid:
           id: nid
@@ -4311,8 +3984,8 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: false
-            path: ''
+            make_link: true
+            path: '/order/{{ nid }}'
             absolute: false
             external: false
             replace_spaces: false
@@ -4323,7 +3996,7 @@ display:
             link_class: ''
             prefix: ''
             suffix: ''
-            target: ''
+            target: _blank
             nl2br: false
             max_length: 0
             word_boundary: true
@@ -4350,7 +4023,7 @@ display:
           click_sort_column: target_id
           type: entity_reference_label
           settings:
-            link: true
+            link: false
           group_column: target_id
           group_columns: {  }
           group_rows: true
@@ -4683,6 +4356,27 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+      pager:
+        type: full
+        options:
+          items_per_page: 50
+          offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: true
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '10, 25, 50, 100'
+            items_per_page_options_all: true
+            items_per_page_options_all_label: 'All Orders'
+            offset: false
+            offset_label: Offset
+          quantity: 9
     cache_metadata:
       max-age: -1
       contexts:
