@@ -119,6 +119,30 @@ em,p{
       }
     }
 
+    .node-measurement-form, .node-measurement-edit-form{
+
+      .layout__region.layout__region--middle {
+        display: flex !important;
+        flex-wrap: wrap;
+    
+        >div {
+          width: 23%;
+          padding: 3px;
+    
+          @media screen and (max-width: 620px) {
+            width: 98%
+          }
+    
+          input,
+          select {
+            width: 100% !important;
+            border-radius: 0;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
   }
 }
 

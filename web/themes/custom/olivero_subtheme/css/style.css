@@ -138,6 +138,33 @@
   width: 99%;
 }
 
+.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div {
+  width: 23%;
+  padding: 3px;
+}
+
+@media screen and (max-width: 620px) {
+  .flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div {
+    width: 98%;
+  }
+}
+
+.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div input,
+.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div select, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div input,
+.flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div select {
+  width: 100% !important;
+  border-radius: 0;
+  font-size: 15px;
+}
+
 @media (min-width: 62.5rem) {
   .layout--content-medium, .layout--pass--content-medium > * {
     -ms-grid-column: 1;
