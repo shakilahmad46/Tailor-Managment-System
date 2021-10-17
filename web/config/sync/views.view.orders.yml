@@ -41,6 +41,8 @@ dependencies:
     - field.storage.node.field_ustad
     - node.type.order
     - system.menu.main
+    - user.role.administrator
+    - user.role.authenticated
   module:
     - datatables
     - datetime
@@ -62,9 +64,11 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access content'
+          role:
+            authenticated: authenticated
+            administrator: administrator
       cache:
         type: tag
         options: {  }
@@ -905,7 +909,7 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_order_s'
         - 'config:field.storage.node.field_payment'
@@ -4164,7 +4168,7 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_bain'
         - 'config:field.storage.node.field_bazo_design'
@@ -4686,7 +4690,7 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_customer'
         - 'config:field.storage.node.field_delivery_date'
@@ -7544,7 +7548,7 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_bain'
         - 'config:field.storage.node.field_bazo_design'
@@ -10433,7 +10437,7 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_bain'
         - 'config:field.storage.node.field_bazo_design'

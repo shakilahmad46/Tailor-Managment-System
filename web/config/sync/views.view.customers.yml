@@ -10,6 +10,8 @@ dependencies:
     - node.type.customer
     - node.type.employees
     - system.menu.main
+    - user.role.administrator
+    - user.role.authenticated
   module:
     - datatables
     - node
@@ -30,9 +32,11 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access content'
+          role:
+            authenticated: authenticated
+            administrator: administrator
       cache:
         type: tag
         options: {  }
@@ -581,7 +585,7 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_addresss'
         - 'config:field.storage.node.field_mobile'
@@ -812,7 +816,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_mobile'
   page_1:
@@ -871,7 +875,7 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_addresss'
         - 'config:field.storage.node.field_mobile'
@@ -1142,7 +1146,7 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_employee_role'
   page_3:
@@ -1641,7 +1645,7 @@ display:
         - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_addresss'
         - 'config:field.storage.node.field_mobile'
