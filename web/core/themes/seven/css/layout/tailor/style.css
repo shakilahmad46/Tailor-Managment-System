@@ -1,4 +1,4 @@
-.page-node-type-measurement .node-form .layout__region.layout__region--middle {
+.node-measurement-form .layout__region.layout__region--middle, .node-measurement-edit-form .layout__region.layout__region--middle {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -6,19 +6,20 @@
       flex-wrap: wrap;
 }
 
-.page-node-type-measurement .node-form .layout__region.layout__region--middle > div {
+.node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
   width: 23%;
   padding: 3px;
 }
 
 @media screen and (max-width: 620px) {
-  .page-node-type-measurement .node-form .layout__region.layout__region--middle > div {
+  .node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
     width: 98%;
   }
 }
 
-.page-node-type-measurement .node-form .layout__region.layout__region--middle > div input,
-.page-node-type-measurement .node-form .layout__region.layout__region--middle > div select {
+.node-measurement-form .layout__region.layout__region--middle > div input,
+.node-measurement-form .layout__region.layout__region--middle > div select, .node-measurement-edit-form .layout__region.layout__region--middle > div input,
+.node-measurement-edit-form .layout__region.layout__region--middle > div select {
   width: 100% !important;
   border-radius: 0;
   font-size: 15px;

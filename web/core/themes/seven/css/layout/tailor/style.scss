@@ -1,25 +1,25 @@
-.page-node-type-measurement {
-  .node-form {
 
-    .layout__region.layout__region--middle {
-      display: flex !important;
-      flex-wrap: wrap;
 
-      >div {
-        width: 23%;
-        padding: 3px;
+.node-measurement-form, .node-measurement-edit-form{
 
-        @media screen and (max-width: 620px) {
-          width: 98%
-        }
+  .layout__region.layout__region--middle {
+    display: flex !important;
+    flex-wrap: wrap;
 
-        input,
-        select {
-          width: 100% !important;
-          border-radius: 0;
-          font-size: 15px;
-          height: 37px !important;
-        }
+    >div {
+      width: 23%;
+      padding: 3px;
+
+      @media screen and (max-width: 620px) {
+        width: 98%
+      }
+
+      input,
+      select {
+        width: 100% !important;
+        border-radius: 0;
+        font-size: 15px;
+        height: 37px !important;
       }
     }
   }
