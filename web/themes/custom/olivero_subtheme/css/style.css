@@ -138,7 +138,15 @@
   width: 99%;
 }
 
-.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle {
+@media (min-width: 62.5rem) {
+  .layout--content-medium, .layout--pass--content-medium > * {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 13;
+    grid-column: 1 / 14;
+  }
+}
+
+.node-measurement-form .layout__region.layout__region--middle, .node-measurement-edit-form .layout__region.layout__region--middle {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -146,30 +154,22 @@
       flex-wrap: wrap;
 }
 
-.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div {
+.node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
   width: 23%;
   padding: 3px;
 }
 
 @media screen and (max-width: 620px) {
-  .flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div {
+  .node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
     width: 98%;
   }
 }
 
-.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div input,
-.flexrecipt .fitem .node-measurement-form .layout__region.layout__region--middle > div select, .flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div input,
-.flexrecipt .fitem .node-measurement-edit-form .layout__region.layout__region--middle > div select {
+.node-measurement-form .layout__region.layout__region--middle > div input,
+.node-measurement-form .layout__region.layout__region--middle > div select, .node-measurement-edit-form .layout__region.layout__region--middle > div input,
+.node-measurement-edit-form .layout__region.layout__region--middle > div select {
   width: 100% !important;
   border-radius: 0;
   font-size: 15px;
-}
-
-@media (min-width: 62.5rem) {
-  .layout--content-medium, .layout--pass--content-medium > * {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 13;
-    grid-column: 1 / 14;
-  }
 }
 /*# sourceMappingURL=style.css.map */

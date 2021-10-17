@@ -119,29 +119,7 @@ em,p{
       }
     }
 
-    .node-measurement-form, .node-measurement-edit-form{
-
-      .layout__region.layout__region--middle {
-        display: flex !important;
-        flex-wrap: wrap;
-    
-        >div {
-          width: 23%;
-          padding: 3px;
-    
-          @media screen and (max-width: 620px) {
-            width: 98%
-          }
-    
-          input,
-          select {
-            width: 100% !important;
-            border-radius: 0;
-            font-size: 15px;
-          }
-        }
-      }
-    }
+   
 
   }
 }
@@ -153,216 +131,26 @@ em,p{
 }
 }
 
-// .invboxgrid {
-//   width: 148mm;
-//   height: 210mm;
-//   margin: 30px auto;
-//   border: 1px solid rgb(224, 224, 224);
-//   // font-family: 'Jomhuria', cursive;
-//   font-family: "Noto Kufi Arabic", sans-serif;
-//   display: grid;
-//   grid-template-columns: repeat(6, 1fr);
-//   grid-template-rows: repeat(10, 0fr);
-//   grid-column-gap: 0px;
-//   direction: rtl;
-//   background-color: white;
-//   grid-row-gap: 0px;
+.node-measurement-form, .node-measurement-edit-form{
 
+  .layout__region.layout__region--middle {
+    display: flex !important;
+    flex-wrap: wrap;
 
-//   em {
-//     font-style: normal !important;
-//     font-family: "Jomhuria", cursive;
-//   }
+    >div {
+      width: 23%;
+      padding: 3px;
 
+      @media screen and (max-width: 620px) {
+        width: 98%
+      }
 
-//   .div1 {
-//     grid-area: 1 / 1 / 2 / 7;
-//     margin: 0;
-//     padding: 10px 20px;
-//     text-align: center;
-
-//     h1 {
-//       font-family: "Noto Kufi Arabic", sans-serif !important;
-//       font-size: 33px;
-//       padding: 0;
-//       margin: 0;
-
-//     }
-//   }
-
-//   .div2 {
-//     grid-area: 2 / 1 / 3 / 7;
-//     background-color: black;
-//     color: white;
-//     padding: 5px;
-//     text-align: center;
-//     margin: 0;
-
-//     p {
-//       margin: 0;
-//       padding: 0;
-//       font-size: 15px;
-//       color: white;
-//     }
-//   }
-
-//   .div3 {
-//     grid-area: 3 / 1 / 4 / 4;
-//     padding: 0 15px;
-//   }
-
-//   .div4 {
-//     grid-area: 3 / 4 / 4 / 7;
-//     padding: 0 15px;
-//   }
-
-//   .div5 {
-//     grid-area: 4 / 1 / 5 / 4;
-//     padding: 0 15px;
-//   }
-
-//   .div6 {
-//     grid-area: 4 / 4 / 5 / 7;
-//     padding: 0 15px;
-//   }
-
-//   .div7 {
-//     grid-area: 5 / 4 / 5 / 7;
-//     padding: 0 15px;
-//   }
-
-//   .div8 {
-//     grid-area: 5 / 1 / 5 / 4;
-//     padding: 0 15px;
-//   }
-
-//   .div9 {
-    
-//     grid-area: 6 / 1 / 11 / 3;
-
-//     .subgrid1 {
-//       display: grid;
-//       grid-template-columns: auto auto;
-// margin-right: 13px;
-//       .subdiv1 {
-//         background-color: rgba(255, 255, 255, 0.8);
-//         border: 1px solid rgba(0, 0, 0, 0.8);
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         padding: 0;
-//         margin: 0;
-//         height: 36px;
-//       }
-//     }
-//   }
-
-//   .div10 {
-//     background: red;
-//     grid-area: 6 / 3 / 7 / 7
-//   }
-
-//   .div11 {
-//     margin-top: 30px;
-//     grid-area: 5 / 5 / 11 / 7;
-//   }
-
-//   @media print {
-//     width: 100%;
-//     height: 100%;
-//     margin: 30px auto;
-//     border: 1px solid rgb(224, 224, 224);
-//     // font-family: 'Jomhuria', cursive;
-//     font-family: "Noto Kufi Arabic", sans-serif;
-//     display: grid;
-//     grid-template-columns: repeat(6, 1fr);
-//     grid-template-rows: repeat(10, 0fr);
-//     grid-column-gap: 0px;
-//     direction: rtl;
-//     grid-row-gap: 0px;
-
-//     h1 {
-//       font-family: "Noto Kufi Arabic", sans-serif !important;
-
-//     }
-
-//     em {
-//       font-style: normal !important;
-//       font-family: "Jomhuria", cursive;
-//     }
-
-
-//     .div1 {
-//       grid-area: 1 / 1 / 2 / 7;
-//       margin: 0;
-//       padding: 10px 20px;
-//       text-align: center;
-//     }
-
-//     .div2 {
-//       grid-area: 2 / 1 / 3 / 7;
-//       background-color: black;
-//       color: white;
-//       padding: 5px;
-//       text-align: center;
-//       margin: 0;
-//     }
-
-//     .div3 {
-//       grid-area: 3 / 1 / 4 / 4;
-//       padding: 0 15px;
-//     }
-
-//     .div4 {
-//       grid-area: 3 / 4 / 4 / 7;
-//       padding: 0 15px;
-//     }
-
-//     .div5 {
-//       grid-area: 4 / 1 / 5 / 4;
-//       padding: 0 15px;
-//     }
-
-//     .div6 {
-//       grid-area: 4 / 4 / 5 / 7;
-//       padding: 0 15px;
-//     }
-
-//     .div7 {
-//       grid-area: 5 / 4 / 5 / 7;
-//       padding: 0 15px;
-//     }
-
-//     .div8 {
-//       grid-area: 5 / 1 / 5 / 4;
-//       padding: 0 15px;
-//     }
-
-//     .div9 {
-//       margin-top: 30px;
-//       grid-area: 5 / 1 / 11 / 3;
-
-//       .subgrid1 {
-//         display: grid;
-//         grid-template-columns: auto auto;
-
-//         .subdiv1 {
-//           background-color: rgba(255, 255, 255, 0.8);
-//           border: 1px solid rgba(0, 0, 0, 0.8);
-//         }
-//       }
-//     }
-
-//     .div10 {
-//       margin-top: 30px;
-//       grid-area: 5 / 3 / 11 / 5;
-//     }
-
-//     .div11 {
-//       margin-top: 30px;
-//       grid-area: 5 / 5 / 11 / 7;
-//     }
-
-//   }
-
-// }
+      input,
+      select {
+        width: 100% !important;
+        border-radius: 0;
+        font-size: 15px;
+      }
+    }
+  }
+}
