@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: gol
-      label: Gol
+      label: گول
     -
       value: chawras
-      label: Cut
+      label: کٹ
   allowed_values_function: ''
 module: options
 locked: false

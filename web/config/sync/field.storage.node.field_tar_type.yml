@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: sada
-      label: 'Saada Tar'
+      label: 'سادہ تار'
     -
       value: chamka
-      label: 'Chamak Tar'
+      label: چمکتار
   allowed_values_function: ''
 module: options
 locked: false

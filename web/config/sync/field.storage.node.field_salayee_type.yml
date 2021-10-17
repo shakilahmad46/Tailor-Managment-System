@@ -13,13 +13,13 @@ settings:
   allowed_values:
     -
       value: double
-      label: Double
+      label: ڈبل
     -
       value: triple
-      label: Triple
+      label: ٹرپل
     -
       value: signle
-      label: Single
+      label: سنگل
     -
       value: 'چوکه سلاې3/3'
       label: 'چوکه سلاي 3/3'
