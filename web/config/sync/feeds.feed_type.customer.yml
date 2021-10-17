@@ -1,0 +1,83 @@
+uuid: 1e17b7bf-c56b-42b6-9f94-0ada1e4dfefa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.customer.title
+    - field.field.node.customer.field_addresss
+    - field.field.node.customer.field_extra_information
+    - field.field.node.customer.field_mobile
+    - node.type.customer
+  module:
+    - node
+id: customer
+label: Customer
+description: 'Import Customers'
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  langcode: en
+  update_existing: 0
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    type: customer
+custom_sources:
+  address:
+    label: address
+    value: address
+    machine_name: address
+  name:
+    label: name
+    value: name
+    machine_name: name
+  mobile:
+    label: mobile
+    value: mobile
+    machine_name: mobile
+  information:
+    label: information
+    value: information
+    machine_name: information
+mappings:
+  -
+    target: field_addresss
+    map:
+      value: address
+    unique: {  }
+    settings:
+      language: null
+  -
+    target: title
+    map:
+      value: name
+    unique: {  }
+    settings:
+      language: null
+  -
+    target: field_mobile
+    map:
+      value: mobile
+    unique: {  }
+    settings:
+      language: null
+  -
+    target: field_extra_information
+    map:
+      value: information
+    settings:
+      language: null

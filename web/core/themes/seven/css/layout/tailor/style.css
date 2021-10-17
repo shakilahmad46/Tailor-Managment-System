@@ -1,0 +1,27 @@
+.page-node-type-measurement .node-form .layout__region.layout__region--middle {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page-node-type-measurement .node-form .layout__region.layout__region--middle > div {
+  width: 23%;
+  padding: 3px;
+}
+
+@media screen and (max-width: 620px) {
+  .page-node-type-measurement .node-form .layout__region.layout__region--middle > div {
+    width: 98%;
+  }
+}
+
+.page-node-type-measurement .node-form .layout__region.layout__region--middle > div input,
+.page-node-type-measurement .node-form .layout__region.layout__region--middle > div select {
+  width: 100% !important;
+  border-radius: 0;
+  font-size: 15px;
+  height: 37px !important;
+}
+/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.measurement.field_bain
+    - field.field.node.measurement.field_bain_
     - field.field.node.measurement.field_bazo_design
     - field.field.node.measurement.field_bazo_lambai
     - field.field.node.measurement.field_buttons_on_patee
@@ -17,6 +18,7 @@ dependencies:
     - field.field.node.measurement.field_kaf_
     - field.field.node.measurement.field_kaf_c
     - field.field.node.measurement.field_kaf_design
+    - field.field.node.measurement.field_kaf_design_
     - field.field.node.measurement.field_kalar
     - field.field.node.measurement.field_kalar_desin
     - field.field.node.measurement.field_kalar_lambai
@@ -26,6 +28,7 @@ dependencies:
     - field.field.node.measurement.field_painch
     - field.field.node.measurement.field_patee_ch
     - field.field.node.measurement.field_patee_design
+    - field.field.node.measurement.field_patee_design_
     - field.field.node.measurement.field_patee_la
     - field.field.node.measurement.field_s
     - field.field.node.measurement.field_salayee_type
@@ -56,6 +59,7 @@ content:
     region: content
 hidden:
   field_bain: true
+  field_bain_: true
   field_bazo_design: true
   field_bazo_lambai: true
   field_buttons_on_patee: true
@@ -68,6 +72,7 @@ hidden:
   field_kaf_: true
   field_kaf_c: true
   field_kaf_design: true
+  field_kaf_design_: true
   field_kalar: true
   field_kalar_desin: true
   field_kalar_lambai: true
@@ -77,6 +82,7 @@ hidden:
   field_painch: true
   field_patee_ch: true
   field_patee_design: true
+  field_patee_design_: true
   field_patee_la: true
   field_s: true
   field_salayee_type: true

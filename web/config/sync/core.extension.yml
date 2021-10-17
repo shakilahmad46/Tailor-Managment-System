@@ -26,6 +26,7 @@ module:
   dynamic_page_cache: 0
   editor: 0
   epp: 0
+  feeds: 0
   field: 0
   field_layout: 0
   field_ui: 0
@@ -75,10 +76,9 @@ theme:
   seven: 0
   olivero: 0
   stable: 0
-  uikit: 0
-  uikit_admin: 0
   tailor: 0
   olivero_subtheme: 0
+  seven_sub: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

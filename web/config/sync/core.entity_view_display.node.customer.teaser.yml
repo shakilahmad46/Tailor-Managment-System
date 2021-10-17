@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.customer.feeds_item
     - field.field.node.customer.field_addresss
     - field.field.node.customer.field_extra_information
     - field.field.node.customer.field_mobile
@@ -29,6 +30,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  feeds_item: true
   field_addresss: true
   field_extra_information: true
   field_mobile: true

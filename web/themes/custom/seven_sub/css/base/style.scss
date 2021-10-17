@@ -1,0 +1,9 @@
+#node-measurement-form, .node-measurement-edit-form {
+  .layout__region.layout__region--middle {
+    display: flex!important;
+
+    >div {
+      width: 23%;
+    }
+  }
+}

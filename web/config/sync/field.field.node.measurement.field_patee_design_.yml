@@ -1,0 +1,25 @@
+uuid: 71ab0e6d-93b7-4128-b423-ffadcfe3d992
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_patee_design_
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_patee_design_
+field_name: field_patee_design_
+entity_type: node
+bundle: measurement
+label: 'Patee Design_'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

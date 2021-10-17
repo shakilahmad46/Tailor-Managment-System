@@ -1,0 +1,25 @@
+uuid: 1db28e3c-43ea-4580-bca0-b6850467efd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bain_
+    - node.type.measurement
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.measurement.field_bain_
+field_name: field_bain_
+entity_type: node
+bundle: measurement
+label: Bain_
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+#node-measurement-form .layout__region.layout__region--middle, .node-measurement-edit-form .layout__region.layout__region--middle {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
+  width: 23%;
+}
+/*# sourceMappingURL=style.css.map */

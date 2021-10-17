@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/style.css: {}
+  dependencies:
+    - system/admin

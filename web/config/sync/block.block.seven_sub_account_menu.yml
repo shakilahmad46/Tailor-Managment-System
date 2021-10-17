@@ -1,0 +1,27 @@
+uuid: f0e36ac7-dada-43b8-bc53-8a0cbe8c06a8
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - seven_sub
+_core:
+  default_config_hash: 19CmBQT7OL-3VRx-isvQ5jfGekABppTKv1h5rHK376s
+id: seven_sub_account_menu
+theme: seven_sub
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

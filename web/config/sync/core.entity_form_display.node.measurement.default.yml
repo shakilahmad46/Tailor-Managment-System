@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.measurement.field_bain
+    - field.field.node.measurement.field_bain_
     - field.field.node.measurement.field_bazo_design
     - field.field.node.measurement.field_bazo_lambai
     - field.field.node.measurement.field_buttons_on_patee
@@ -16,6 +17,7 @@ dependencies:
     - field.field.node.measurement.field_kaf_
     - field.field.node.measurement.field_kaf_c
     - field.field.node.measurement.field_kaf_design
+    - field.field.node.measurement.field_kaf_design_
     - field.field.node.measurement.field_kalar
     - field.field.node.measurement.field_kalar_desin
     - field.field.node.measurement.field_kalar_lambai
@@ -25,6 +27,7 @@ dependencies:
     - field.field.node.measurement.field_painch
     - field.field.node.measurement.field_patee_ch
     - field.field.node.measurement.field_patee_design
+    - field.field.node.measurement.field_patee_design_
     - field.field.node.measurement.field_patee_la
     - field.field.node.measurement.field_s
     - field.field.node.measurement.field_salayee_type
@@ -51,38 +54,40 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 14
-    region: middle
+    weight: 4
+    region: top
     settings: {  }
     third_party_settings: {  }
-  field_bain:
-    weight: 24
-    settings: {  }
+  field_bain_:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: string_textfield
     region: middle
   field_bazo_design:
-    weight: 8
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: middle
   field_bazo_lambai:
-    weight: 7
+    weight: 11
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_buttons_on_patee:
-    weight: 28
+    weight: 27
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_chatee:
-    weight: 12
+    weight: 16
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -99,7 +104,7 @@ content:
     type: select2_entity_reference
     region: top
   field_daman_desin:
-    weight: 29
+    weight: 28
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -113,47 +118,49 @@ content:
     type: string_textarea
     region: bottom
   field_front_po:
-    weight: 23
+    weight: 24
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: middle
   field_gera:
-    weight: 9
+    weight: 13
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_kaf_:
-    weight: 31
+    weight: 30
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_kaf_c:
-    weight: 32
+    weight: 31
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
-  field_kaf_design:
-    weight: 33
-    settings: {  }
+  field_kaf_design_:
+    weight: 36
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: string_textfield
     region: middle
   field_kalar:
-    weight: 10
+    weight: 14
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_kalar_desin:
-    weight: 11
+    weight: 15
     settings:
       size: 60
       placeholder: ''
@@ -161,35 +168,35 @@ content:
     type: string_textfield
     region: middle
   field_kalar_lambai:
-    weight: 3
+    weight: 7
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_kamar:
-    weight: 5
+    weight: 9
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_lambai:
-    weight: 2
+    weight: 6
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_mora:
-    weight: 30
+    weight: 29
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_painch:
-    weight: 20
+    weight: 21
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -202,11 +209,13 @@ content:
     third_party_settings: {  }
     type: number
     region: middle
-  field_patee_design:
-    weight: 27
-    settings: {  }
+  field_patee_design_:
+    weight: 35
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: string_textfield
     region: middle
   field_patee_la:
     weight: 25
@@ -216,45 +225,45 @@ content:
     type: number
     region: middle
   field_s:
-    weight: 19
+    weight: 20
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_salayee_type:
-    weight: 34
+    weight: 32
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: middle
   field_shalwar_l:
-    weight: 4
+    weight: 8
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: middle
   field_shalwar_pocket:
-    weight: 21
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: middle
-  field_side_poc:
     weight: 22
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: middle
+  field_side_poc:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: middle
   field_tar_type:
-    weight: 35
+    weight: 33
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: middle
   field_teera:
-    weight: 6
+    weight: 10
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -262,37 +271,37 @@ content:
     region: middle
   langcode:
     type: language_select
-    weight: 36
+    weight: 2
     region: top
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 17
-    region: middle
+    weight: 18
+    region: top
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
-    region: middle
+    weight: 5
+    region: top
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 18
-    region: middle
+    weight: 19
+    region: top
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
-    region: middle
+    weight: 17
+    region: top
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -304,12 +313,15 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 13
+    weight: 3
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
       match_limit: 10
-    region: middle
+    region: top
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_bain: true
+  field_kaf_design: true
+  field_patee_design: true

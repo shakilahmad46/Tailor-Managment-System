@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_bain
+    - field.storage.node.field_bain_
     - field.storage.node.field_bazo_design
     - field.storage.node.field_bazo_lambai
     - field.storage.node.field_buttons_on_patee
@@ -17,6 +18,7 @@ dependencies:
     - field.storage.node.field_kaf_
     - field.storage.node.field_kaf_c
     - field.storage.node.field_kaf_design
+    - field.storage.node.field_kaf_design_
     - field.storage.node.field_kalar
     - field.storage.node.field_kalar_desin
     - field.storage.node.field_kalar_lambai
@@ -28,6 +30,7 @@ dependencies:
     - field.storage.node.field_painch
     - field.storage.node.field_patee_ch
     - field.storage.node.field_patee_design
+    - field.storage.node.field_patee_design_
     - field.storage.node.field_patee_la
     - field.storage.node.field_payment
     - field.storage.node.field_quantity
@@ -5184,68 +5187,6 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_bain:
-          id: field_bain
-          table: node__field_bain
-          field: field_bain
-          relationship: field_measurement
-          group_type: group
-          admin_label: ''
-          label: Bain
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: list_default
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
         field_bazo_design:
           id: field_bazo_design
           table: node__field_bazo_design
@@ -5811,68 +5752,6 @@ display:
             prefix_suffix: true
             decimal_separator: .
             scale: 2
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_kaf_design:
-          id: field_kaf_design
-          table: node__field_kaf_design
-          field: field_kaf_design
-          relationship: field_measurement
-          group_type: group
-          admin_label: ''
-          label: 'Kaf Design'
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: list_default
-          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -6464,68 +6343,6 @@ display:
             prefix_suffix: true
             decimal_separator: .
             scale: 2
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
-        field_patee_design:
-          id: field_patee_design
-          table: node__field_patee_design
-          field: field_patee_design
-          relationship: field_measurement
-          group_type: group
-          admin_label: ''
-          label: 'Patee Design'
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: list_default
-          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -7175,6 +6992,195 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_bain_:
+          id: field_bain_
+          table: node__field_bain_
+          field: field_bain_
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_kaf_design_:
+          id: field_kaf_design_
+          table: node__field_kaf_design_
+          field: field_kaf_design_
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_patee_design_:
+          id: field_patee_design_
+          table: node__field_patee_design_
+          field: field_patee_design_
+          relationship: field_measurement
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
         nothing:
           id: nothing
           table: views
@@ -7186,7 +7192,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "  <div class=\"flexrecipt\">\r\n    <div class=\"fitem\">\r\n      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div> <em>آرڈر نمبر:</em>\r\n        <b>{{ nid }}</b></div>\r\n      <div><em>تاریخ آمد:</em>\r\n        <b>{{ created }}</b></div>\r\n      <div><em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b></div>\r\n      <div><em>تاریخ واپسی:</em>\r\n        <b>{{ field_delivery_date }}</b></div>\r\n      <div><em>استاد کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n      <div> <em>کٹر کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div class=\"nafTable\">\r\n        <em>لمبائی</em>\r\n        <p>{{ field_lambai }}</p>\r\n        <em>\_بازو</em>\r\n        <p> {{ field_bazo_lambai}} </p>\r\n        <em>تیرہ</em>\r\n        <p> {{ field_teera }} </p>\r\n<em>کالر لمبائی</em>\r\n        <p> {{ field_kalar_lambai }} </p>\r\n        <em>کالر چوڑائی</em>\r\n        <p> {{ field_kalar }} </p>\r\n        <em>چھاتی</em>\r\n        <p> {{ field_chatee }} </p>\r\n        <em>کمر</em>\r\n        <p> {{ field_kamar }} </p>\r\n        <em>گھیرا</em>\r\n        <p> {{ field_gera }} </p>\r\n        <em>شلوار لمبائی</em>\r\n        <p> {{ field_shalwar_l}} </p>\r\n        <em> پاینچا</em>\r\n        <p> {{ field_painch }} </p>\r\n        <em>موڑا</em>\r\n        <p> {{ field_mora }} </p>\r\n        <em>سلائی قسم</em>\r\n        <p> {{ field_salayee_type }} </p>\r\n<em>تار قسم</em>\r\n        <p> {{ field_tar_type }} </p>\r\n\r\n      </div>\r\n<div class=\"symbols\">\r\n        \r\n        <div><b>\_کف لمبائی</b>\r\n          <p>{{field_kaf_ }} </p>\r\n        </div>\r\n        <div><b>\_کف چوڑائی</b>\r\n          <p>{{field_kaf_c }} </p>\r\n        </div>\r\n        <div><b>\_کف ڈیزاین</b>\r\n          <p>{{field_kaf_design }} </p>\r\n        </div>\r\n<div><b>\_فرنٹ پاکٹ</b>\r\n          <p>{{ field_front_po }} </p>\r\n        </div>\r\n        <div><b>\_سائیڈ پاکٹ</b>\r\n          <p>{{field_side_poc }} </p>\r\n        </div>\r\n        <div><b>\_شلوار پاکٹ</b>\r\n          <p>{{field_shalwar_pocket }} </p>\r\n        </div>\r\n        <div><b>\_دامن ڈیزاین</b>\r\n          <p>{{field_daman_desin }} </p>\r\n        </div>\r\n        <div><b>\_پٹی چوڑائی</b>\r\n          <p>{{ field_patee_ch }} </p>\r\n        </div>\r\n        <div><b>\_پٹی لمبائی</b>\r\n          <p>{{field_patee_la }} </p>\r\n        </div>\r\n        <div><b>\_پٹی ڈیزائن</b>\r\n          <p>{{field_patee_design }} </p>\r\n        </div>\r\n        <div><b>\_بٹن تعداد</b>\r\n          <p>{{field_buttons_on_patee }} </p>\r\n        </div>\r\n<div><b>\_کالر ڈیزائن</b>\r\n          <p>{{ field_kalar_desin }} </p>\r\n        </div>\r\n<div><b>\_بین</b>\r\n          <p>{{ field_bain }} </p>\r\n        </div>\r\n<div><b>\_جوڑو کی تعداد</b>\r\n          <p>{{ field_quantity }} </p>\r\n        </div>\r\n<div><b>\_</b>\r\n          <p></p>\r\n        </div>\r\n<div><b>\_اضافی معلومات</b>\r\n          <p>{{ field_extra_information }}</p>\r\n        </div>\r\n\r\n\r\n\r\n\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n  </div>"
+            text: "  <div class=\"flexrecipt\">\r\n    <div class=\"fitem\">\r\n      <h1>ایمپریل ٹیلرزاینڈ کلاتھ ھاوس</h1>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <p>المدینہ مارکیٹ، چارسدہ بس سٹینڈ، پشاور۔ موبایل 03469153212</p>\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div> <em>آرڈر نمبر:</em>\r\n        <b>{{ nid }}</b></div>\r\n      <div><em>تاریخ آمد:</em>\r\n        <b>{{ created }}</b></div>\r\n      <div><em>کسٹمر نام: </em>\r\n        <b>{{ field_customer }}</b></div>\r\n      <div><em>تاریخ واپسی:</em>\r\n        <b>{{ field_delivery_date }}</b></div>\r\n      <div><em>استاد کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n      <div> <em>کٹر کا نام:</em>\r\n        <b>{{ field_customer_1 }}</b></div>\r\n\r\n    </div>\r\n    <div class=\"fitem\">\r\n      <div class=\"nafTable\">\r\n        <em>لمبائی</em>\r\n        <p>{{ field_lambai }}</p>\r\n        <em>\_بازو</em>\r\n        <p> {{ field_bazo_lambai}} </p>\r\n        <em>تیرہ</em>\r\n        <p> {{ field_teera }} </p>\r\n<em>کالر لمبائی</em>\r\n        <p> {{ field_kalar_lambai }} </p>\r\n        <em>کالر چوڑائی</em>\r\n        <p> {{ field_kalar }} </p>\r\n        <em>چھاتی</em>\r\n        <p> {{ field_chatee }} </p>\r\n        <em>کمر</em>\r\n        <p> {{ field_kamar }} </p>\r\n        <em>گھیرا</em>\r\n        <p> {{ field_gera }} </p>\r\n        <em>شلوار لمبائی</em>\r\n        <p> {{ field_shalwar_l}} </p>\r\n        <em> پاینچا</em>\r\n        <p> {{ field_painch }} </p>\r\n        <em>موڑا</em>\r\n        <p> {{ field_mora }} </p>\r\n        <em>سلائی قسم</em>\r\n        <p> {{ field_salayee_type }} </p>\r\n<em>تار قسم</em>\r\n        <p> {{ field_tar_type }} </p>\r\n\r\n      </div>\r\n<div class=\"symbols\">\r\n        \r\n        <div><b>\_کف لمبائی</b>\r\n          <p>{{field_kaf_ }} </p>\r\n        </div>\r\n        <div><b>\_کف چوڑائی</b>\r\n          <p>{{field_kaf_c }} </p>\r\n        </div>\r\n        <div><b>\_کف ڈیزاین</b>\r\n          <p>{{field_kaf_design_ }} </p>\r\n        </div>\r\n<div><b>\_فرنٹ پاکٹ</b>\r\n          <p>{{ field_front_po }} </p>\r\n        </div>\r\n        <div><b>\_سائیڈ پاکٹ</b>\r\n          <p>{{field_side_poc }} </p>\r\n        </div>\r\n        <div><b>\_شلوار پاکٹ</b>\r\n          <p>{{field_shalwar_pocket }} </p>\r\n        </div>\r\n        <div><b>\_دامن ڈیزاین</b>\r\n          <p>{{field_daman_desin }} </p>\r\n        </div>\r\n        <div><b>\_پٹی چوڑائی</b>\r\n          <p>{{ field_patee_ch }} </p>\r\n        </div>\r\n        <div><b>\_پٹی لمبائی</b>\r\n          <p>{{field_patee_la }} </p>\r\n        </div>\r\n        <div><b>\_پٹی ڈیزائن</b>\r\n          <p>{{field_patee_design_ }} </p>\r\n        </div>\r\n        <div><b>\_بٹن تعداد</b>\r\n          <p>{{field_buttons_on_patee }} </p>\r\n        </div>\r\n<div><b>\_کالر ڈیزائن</b>\r\n          <p>{{ field_kalar_desin }} </p>\r\n        </div>\r\n<div><b>\_بین</b>\r\n          <p>{{ field_bain_ }} </p>\r\n        </div>\r\n<div><b>\_جوڑو کی تعداد</b>\r\n          <p>{{ field_quantity }} </p>\r\n        </div>\r\n<div><b>\_</b>\r\n          <p></p>\r\n        </div>\r\n<div><b>\_اضافی معلومات</b>\r\n          <p>{{ field_extra_information }}</p>\r\n        </div>\r\n\r\n\r\n\r\n\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n  </div>"
             make_link: false
             path: ''
             absolute: false
@@ -7244,7 +7250,7 @@ display:
         - 'user.node_grants:view'
         - user.roles
       tags:
-        - 'config:field.storage.node.field_bain'
+        - 'config:field.storage.node.field_bain_'
         - 'config:field.storage.node.field_bazo_design'
         - 'config:field.storage.node.field_bazo_lambai'
         - 'config:field.storage.node.field_buttons_on_patee'
@@ -7257,7 +7263,7 @@ display:
         - 'config:field.storage.node.field_gera'
         - 'config:field.storage.node.field_kaf_'
         - 'config:field.storage.node.field_kaf_c'
-        - 'config:field.storage.node.field_kaf_design'
+        - 'config:field.storage.node.field_kaf_design_'
         - 'config:field.storage.node.field_kalar'
         - 'config:field.storage.node.field_kalar_desin'
         - 'config:field.storage.node.field_kalar_lambai'
@@ -7268,7 +7274,7 @@ display:
         - 'config:field.storage.node.field_order_s'
         - 'config:field.storage.node.field_painch'
         - 'config:field.storage.node.field_patee_ch'
-        - 'config:field.storage.node.field_patee_design'
+        - 'config:field.storage.node.field_patee_design_'
         - 'config:field.storage.node.field_patee_la'
         - 'config:field.storage.node.field_payment'
         - 'config:field.storage.node.field_quantity'

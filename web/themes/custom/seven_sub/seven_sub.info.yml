@@ -1,0 +1,22 @@
+name: seven_sub
+type: theme
+description: 'seven_sub is sub theme of olivero'
+package: Other
+core_version_requirement: 9.x
+libraries:
+  - seven_sub/global-styling
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
+base theme: seven

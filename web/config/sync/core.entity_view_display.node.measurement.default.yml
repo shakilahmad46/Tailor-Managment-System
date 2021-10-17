@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.measurement.field_bain
+    - field.field.node.measurement.field_bain_
     - field.field.node.measurement.field_bazo_design
     - field.field.node.measurement.field_bazo_lambai
     - field.field.node.measurement.field_buttons_on_patee
@@ -16,6 +17,7 @@ dependencies:
     - field.field.node.measurement.field_kaf_
     - field.field.node.measurement.field_kaf_c
     - field.field.node.measurement.field_kaf_design
+    - field.field.node.measurement.field_kaf_design_
     - field.field.node.measurement.field_kalar
     - field.field.node.measurement.field_kalar_desin
     - field.field.node.measurement.field_kalar_lambai
@@ -25,6 +27,7 @@ dependencies:
     - field.field.node.measurement.field_painch
     - field.field.node.measurement.field_patee_ch
     - field.field.node.measurement.field_patee_design
+    - field.field.node.measurement.field_patee_design_
     - field.field.node.measurement.field_patee_la
     - field.field.node.measurement.field_s
     - field.field.node.measurement.field_salayee_type
@@ -55,6 +58,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_bain_:
+    weight: 131
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_bazo_design:
     weight: 105
@@ -163,6 +174,14 @@ content:
     third_party_settings: {  }
     type: list_default
     region: content
+  field_kaf_design_:
+    weight: 133
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_kalar:
     weight: 108
     label: above
@@ -254,6 +273,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: list_default
+    region: content
+  field_patee_design_:
+    weight: 132
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_patee_la:
     weight: 120

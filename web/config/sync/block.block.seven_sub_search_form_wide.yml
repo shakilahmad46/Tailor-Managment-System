@@ -1,0 +1,23 @@
+uuid: e9e74e3f-3df2-4677-97a4-9a4aa401c6cf
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - seven_sub
+_core:
+  default_config_hash: kF9mVmsseaqxC_a3r0oTNT2MOdiEdr9-6lMUfIa18eI
+id: seven_sub_search_form_wide
+theme: seven_sub
+region: header
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }
