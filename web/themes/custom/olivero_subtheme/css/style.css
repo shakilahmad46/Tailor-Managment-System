@@ -99,11 +99,11 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: (1fr)[11];
-      grid-template-rows: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[14];
+      grid-template-rows: repeat(14, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 100mm;
+  height: 108mm;
   border-top: 1px solid black;
   border-left: 1px solid black;
 }

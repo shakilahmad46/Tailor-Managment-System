@@ -84,12 +84,13 @@ border-bottom: 1px solid gray;
         
           display: grid;
           grid-template-columns: 1fr 1fr;
-          grid-template-rows: repeat(11, 1fr);
+          grid-template-rows: repeat(14, 1fr);
           grid-column-gap: 0px;
           grid-row-gap: 0px;
-      height: 100mm;
+      height: 108mm;
       border-top: 1px solid black;
       border-left: 1px solid black;
+      
 em,p{
   border-bottom: 1px solid black;
   text-align: right;
