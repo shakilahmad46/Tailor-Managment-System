@@ -28,6 +28,11 @@ em, p, b{
     right: 0;
     bottom: 0;
     margin: auto;
+    @media print {
+      width: 100%;
+      height: 80%;
+      
+    }
 
   }
 
