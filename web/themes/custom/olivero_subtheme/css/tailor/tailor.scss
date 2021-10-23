@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Noto+Kufi+Arabic:wght@400;500;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap');
 * {}
 
 .flexrecipt {
-  font-family: "Noto Kufi Arabic", sans-serif;
+  // font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: 'Noto Nastaliq Urdu', serif;
   height: 202mm;
   width: 140mm;
   display: flex;
@@ -57,9 +58,17 @@ em, p, b{
 
     &:nth-child(2) {
       background-color: black;
+      @media print {
+        background-color: black;
+
+      }
       p {
         font-size: 15px;
         color: white;
+        @media print {
+          color: white;
+  
+        }
       }
     }
 
