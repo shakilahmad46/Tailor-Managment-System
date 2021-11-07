@@ -20,6 +20,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/admin_toolbar_tools": "^3.0",
         "drupal/adminimal_theme": "^1.6",
+        "drupal/advagg": "^4.1",
         "drupal/asset_injector": "^2.7",
         "drupal/backup_migrate": "^5.0",
         "drupal/console": "~1.0",
@@ -50,7 +51,10 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4"
+        }
     },
     "extra": {
         "drupal-scaffold": {

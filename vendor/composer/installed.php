@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9bbd629f03173eaa4ca79dcb50cbcc0d09769364',
+        'reference' => 'a9f9a7fa1cc04a1bf96e4f30ee6f0b59c2ecb55b',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -293,6 +293,15 @@
             'install_path' => __DIR__ . '/../../web/themes/contrib/adminimal_theme',
             'aliases' => array(),
             'reference' => '8.x-1.6',
+            'dev_requirement' => false,
+        ),
+        'drupal/advagg' => array(
+            'pretty_version' => '4.1.0',
+            'version' => '4.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/advagg',
+            'aliases' => array(),
+            'reference' => '8.x-4.1',
             'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
@@ -1005,7 +1014,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9bbd629f03173eaa4ca79dcb50cbcc0d09769364',
+            'reference' => 'a9f9a7fa1cc04a1bf96e4f30ee6f0b59c2ecb55b',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
