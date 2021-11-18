@@ -61,7 +61,6 @@ global-styling:
       css/theme/colors.css: {}
     layout:
       css/layout/layout.css: {}
-      css/layout/tailor/style.css: {}
   dependencies:
     - system/admin
 

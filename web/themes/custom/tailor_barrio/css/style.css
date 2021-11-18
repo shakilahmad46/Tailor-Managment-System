@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Noto+Kufi+Arabic:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&display=swap");
+.flexrecipt {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  height: 202mm;
+  width: 140mm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4mm;
+  direction: rtl;
+  position: relative;
+  overflow: hidden;
+}
+
+.flexrecipt em, .flexrecipt p, .flexrecipt b {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.flexrecipt::before {
+  content: '';
+  position: absolute;
+  height: 195mm;
+  width: 132mm;
+  border: 1px solid #727272;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.flexrecipt * {
+  margin: 0;
+  padding: 0;
+}
+
+.flexrecipt .fitem {
+  min-height: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.flexrecipt .fitem:nth-child(1) {
+  padding: 15px 0;
+}
+
+.flexrecipt .fitem:nth-child(1) h1 {
+  font-size: 33px;
+}
+
+.flexrecipt .fitem:nth-child(2) {
+  background-color: black;
+}
+
+.flexrecipt .fitem:nth-child(2) p {
+  font-size: 15px;
+  color: white;
+}
+
+.flexrecipt .fitem:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: auto;
+  gap: 2mm;
+}
+
+.flexrecipt .fitem:nth-child(3) div {
+  min-height: 20px;
+  width: 65mm;
+  text-align: right;
+  border-bottom: 1px solid gray;
+}
+
+.flexrecipt .fitem:nth-child(4) {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: auto;
+}
+
+.flexrecipt .fitem:nth-child(4) .nafTable {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: (1fr)[14];
+      grid-template-rows: repeat(14, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 108mm;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.flexrecipt .fitem:nth-child(4) .nafTable em, .flexrecipt .fitem:nth-child(4) .nafTable p {
+  border-bottom: 1px solid black;
+  text-align: right;
+  padding: 0 5px;
+}
+
+.flexrecipt .fitem:nth-child(4) .symbols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5px;
+  height: 60mm;
+}
+
+.flexrecipt .fitem:nth-child(4) .symbols div {
+  width: 32%;
+  min-height: 20px;
+  background-color: whitesmoke;
+}
+
+.flexrecipt .fitem:nth-child(4) .symbols div img {
+  max-width: 100%;
+}
+
+.flexrecipt .fitem:nth-child(4) .symbols div:nth-child(16) {
+  width: 99%;
+}
+
+@media (min-width: 62.5rem) {
+  .layout--content-medium, .layout--pass--content-medium > * {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 13;
+    grid-column: 1 / 14;
+  }
+}
+
+.node-measurement-form .layout__region.layout__region--middle, .node-measurement-edit-form .layout__region.layout__region--middle {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
+  width: 23%;
+  padding: 3px;
+}
+
+@media screen and (max-width: 620px) {
+  .node-measurement-form .layout__region.layout__region--middle > div, .node-measurement-edit-form .layout__region.layout__region--middle > div {
+    width: 98%;
+  }
+}
+
+.node-measurement-form .layout__region.layout__region--middle > div input,
+.node-measurement-form .layout__region.layout__region--middle > div select, .node-measurement-edit-form .layout__region.layout__region--middle > div input,
+.node-measurement-edit-form .layout__region.layout__region--middle > div select {
+  width: 100% !important;
+  border-radius: 0;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
