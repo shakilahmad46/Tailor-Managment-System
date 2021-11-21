@@ -72,8 +72,9 @@ function redirect_after_login_user_login($account) {
       ->get('system.maintenance_mode') && !$account->hasPermission('access site in maintenance mode')) {
     // The site is in maintenance mode and the user is not allowed in.
     // Step out and let Drupal handle it.
-    $homeResponse = new RedirectResponse(URL::fromUserInput('/')->toString());
-    $homeResponse->send();
+
+    $homeResponse = new RedirectResponse(Url::fromUserInput('/')->toString());
+     $homeResponse->send();
   }
 
   $config = Drupal::config('redirect_after_login.settings');
@@ -100,8 +101,9 @@ function redirect_after_login_user_login($account) {
       $response->send();
     }
     else {
-      $homeResponse = new RedirectResponse(URL::fromUserInput('/')->toString());
-      $homeResponse->send();
-    }
+
+      $homeResponse = new RedirectResponse(Url::fromUserInput('/')->toString());
+     $homeResponse->send();
+   }
   }
 }
