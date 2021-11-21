@@ -38,6 +38,7 @@
         "drupal/pdf": "^1.1",
         "drupal/prepopulate": "^2.3",
         "drupal/printfriendly": "^3.5",
+        "drupal/redirect_after_login": "^2.7",
         "drupal/select2": "^1.13",
         "drupal/token": "^1.9",
         "drupal/uikit_admin": "^3.1",
