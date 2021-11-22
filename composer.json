@@ -38,7 +38,6 @@
         "drupal/pdf": "^1.1",
         "drupal/prepopulate": "^2.3",
         "drupal/printfriendly": "^3.5",
-        "drupal/redirect_after_login": "^2.7",
         "drupal/select2": "^1.13",
         "drupal/token": "^1.9",
         "drupal/uikit_admin": "^3.1",
@@ -123,11 +122,11 @@
         "enable-patching": true,
         "patches": {
             "drupal/printable": {
-              "#3193531, Drupal 9 errors from submodule": "https://git.drupalcode.org/issue/printable-3193531/-/commit/9b4d5fa8b6a713da671ab3143c8580fce45ca6fb.diff"
+                "#3193531, Drupal 9 errors from submodule": "https://git.drupalcode.org/issue/printable-3193531/-/commit/9b4d5fa8b6a713da671ab3143c8580fce45ca6fb.diff"
             },
             "drupal/core": {
                 "olivero_subtheme-tool-3214072-11.patch": "https://www.drupal.org/files/issues/2021-05-17/olivero_subtheme-tool-3214072-11.patch"
-              }
+            }
         }
     }
 }

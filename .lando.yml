@@ -1,0 +1,33 @@
+name: tailor
+recipe: drupal8
+
+config:
+  database: mariadb:10.1
+  php: "7.4"
+  webroot: web
+  xdebug: true
+
+
+services:
+  appserver:
+    run_as_root:
+      - wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.stretch_amd64.deb -P /tmp/
+      - dpkg -i /tmp/wkhtmltox_0.12.5-1.stretch_amd64.deb
+    run:
+      - cd $LANDO_MOUNT && composer install
+
+  phpmyadmin:
+    type: phpmyadmin
+
+  memcache:
+    type: memcached:1
+    mem: 256
+
+
+tooling:
+  phpunit:
+    service: appserver
+    cmd: vendor/bin/phpunit
+  phpcs:
+    service: appserver
+    cmd: vendor/bin/phpcs
